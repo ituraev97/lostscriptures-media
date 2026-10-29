@@ -1,7 +1,7 @@
 # YouTube long-form topics
 
 ## Done
-- 2026-10-30 — 001 The Book of Enoch: The Lost Book Quoted in the Bible (scheduled 14:00 ET)
+- 2026-10-29 — 001 The Book of Enoch: The Lost Book Quoted in the Bible (published 15:45 ET)
 
 ## Backlog (verify demand and sources before choosing; reorder freely)
 - The Book of Jubilees — the "Little Genesis" and its 364-day calendar (Charles 1902/1917 PD; Qumran copies)
