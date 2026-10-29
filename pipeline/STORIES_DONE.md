@@ -9,4 +9,5 @@
 - 2026-10-29 — Jezebel's Last Day (1–2 Kings, Jehu, the YZBL seal)
 - 2026-10-29 — The Cursed Ark / Plague of Ashdod (1 Samuel 4–6, Dagon)
 - 2026-10-29 — Samson's Last Stand (Judges 16, Tell Qasile pillars) — in progress
+- 2026-10-29 — Balaam's Donkey (Numbers 22–24, Deir Alla inscription) — IN PROGRESS
 - Also avoid (done on the book promo reels): Book of Enoch, Book of Jubilees, Ark of the Covenant in Ethiopia.
