@@ -17,3 +17,6 @@
 4. **Platforms**: each reel goes to TikTok AND YouTube Shorts in ONE Metricool post (blogId 7718820): providers
    `[{"network":"tiktok"},{"network":"youtube"}]`, `tiktokData {"privacyOption":"PUBLIC_TO_EVERYONE","isAigc":true,...}`,
    `youtubeData {"title":"<≤90 chars> #shorts","type":"short","privacy":"public","madeForKids":false,"isAiGeneratedContent":true,"category":"EDUCATION"}`.
+5. **Voice check (mandatory)**: before scheduling, run speech recognition (`pip install pocketsphinx`, 16 kHz mono,
+   `pocketsphinx.Decoder(samprate=16000)`) on the first 20 s of the final video; at least 3 content words of the script must
+   appear. Also confirm the voice WAVs are at the sample rate the mixer expects. If the check fails, fix it; never post a silent or garbled reel.

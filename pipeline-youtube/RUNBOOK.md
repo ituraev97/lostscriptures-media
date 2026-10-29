@@ -49,6 +49,8 @@ python3 tools/mix.py              # synthesized score + booms + ducked narration
 node render.mjs --film film --at 3,40,90,150,240,330,420,500 --noblur --workers 2   # LOOK at the stills, fix, repeat
 bash tools/render_all.sh          # 60 s chunks (resumable), ~4.5 min per chunk -> out/final_master.mp4
 ```
+**Voice check (mandatory, before rendering and again on the final file):** every `build/vo/*.wav` must be 48000 Hz (`soundfile.info`), and speech recognition on the first 40 s must recover the script: `pip install pocketsphinx`, convert to 16 kHz mono, decode with `pocketsphinx.Decoder(samprate=16000)`; at least 4 content words of the first three narration lines must appear. If not, the narration is broken — fix it, never post. (Bug found 2026-10-29: loudnorm wrote 192 kHz files and the voice became an unintelligible rumble.)
+
 Run `tools/render_all.sh` with `run_in_background` and wait for the "FINAL" line; if the run is interrupted, run it again (finished chunks are kept). Check: duration, 1920×1080, audio present, `ffmpeg -af ebur128` ≈ −14 LUFS, and a 1-frame-per-15-s contact sheet you LOOK at.
 
 ## 5. Deliverable for YouTube (≤ 95 MB, required by GitHub hosting)
