@@ -1,0 +1,12 @@
+# Stories already made (do not repeat)
+- 2026-10-28 — The Writing on the Wall (Daniel 5, Belshazzar's feast, Herodotus & the riverbed)
+- 2026-10-28 — The Ram and the Goat (Daniel 8 → Alexander the Great, Josephus)
+- 2026-10-28 — The Witch of Endor (1 Samuel 28 & 31, Saul, Beth-shan)
+- 2026-10-28 — The Angel and the 185,000 (2 Kings 18–19, Sennacherib, Taylor Prism)
+- 2026-10-28 — Jonah's Tomb (Jonah 1–4, Nineveh, Nebi Yunus shrine)
+- 2026-10-29 — The Left-Handed Assassin (Judges 3, Ehud & Eglon)
+- 2026-10-29 — The King Eaten by Worms (Acts 12, Herod Agrippa I, Josephus)
+- 2026-10-29 — Jezebel's Last Day (1–2 Kings, Jehu, the YZBL seal)
+- 2026-10-29 — The Cursed Ark / Plague of Ashdod (1 Samuel 4–6, Dagon)
+- 2026-10-29 — Samson's Last Stand (Judges 16, Tell Qasile pillars) — in progress
+- Also avoid (done on the book promo reels): Book of Enoch, Book of Jubilees, Ark of the Covenant in Ethiopia.
