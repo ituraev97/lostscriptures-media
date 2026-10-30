@@ -11,3 +11,4 @@
 - 2026-10-29 — Samson's Last Stand (Judges 16, Tell Qasile pillars) — in progress
 - 2026-10-29 — Balaam's Donkey (Numbers 22–24, Deir Alla inscription) — DONE — TikTok+Shorts published 2026-10-29 16:52 ET
 - Also avoid (done on the book promo reels): Book of Enoch, Book of Jubilees, Ark of the Covenant in Ethiopia.
+- 2026-10-30 — The Bones of Elisha (2 Kings 13:20–21, the dead man revived; Sebaste tomb, Julian 362, Rufinus & Theodoret) — IN PROGRESS
