@@ -51,6 +51,12 @@ bash tools/render_all.sh          # 60 s chunks (resumable), ~4.5 min per chunk 
 ```
 **Voice check (mandatory, before rendering and again on the final file):** every `build/vo/*.wav` must be 48000 Hz (`soundfile.info`), and speech recognition on the first 40 s must recover the script: `pip install pocketsphinx`, convert to 16 kHz mono, decode with `pocketsphinx.Decoder(samprate=16000)`; at least 4 content words of the first three narration lines must appear. If not, the narration is broken — fix it, never post. (Bug found 2026-10-29: loudnorm wrote 192 kHz files and the voice became an unintelligible rumble.)
 
+**Voice check tool:** `python3 tools/voicecheck.py build/mix.wav` (before rendering) and `python3 tools/voicecheck.py out/video.mp4` (final); it prints PASS/FAIL. Hard names: add respellings to `PRON` in `tools/voice.py` (speech only; subtitles keep the real spelling).
+
+**Film clips:** any visual key `film_<name>` plays `film/<name>/f0000.jpg…` + `film/<name>/<name>.json {"n","fps"}` (ping-pong, never freezes). Seeking in archive.org MP4s over HTTP lands on keyframes: always contact-sheet the extracted run and drop intertitles or wrong scenes (e.g. the 1923 Ten Commandments crowd at ~2160 s is the Red Sea, not Sinai). The Ten Commandments (1923): Moses climbing Sinai 2236–2245 s, Moses and the tablets 2296–2305 s (`TheTenCommandments1923NR_201503`).
+
+**Size:** 1150k video gives ~104 MB for a 10:50 film; use `-b:v 950k` for anything longer than ~9:30.
+
 Run `tools/render_all.sh` with `run_in_background` and wait for the "FINAL" line; if the run is interrupted, run it again (finished chunks are kept). Check: duration, 1920×1080, audio present, `ffmpeg -af ebur128` ≈ −14 LUFS, and a 1-frame-per-15-s contact sheet you LOOK at.
 
 ## 5. Deliverable for YouTube (≤ 95 MB, required by GitHub hosting)

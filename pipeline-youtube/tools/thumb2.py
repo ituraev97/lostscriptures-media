@@ -20,7 +20,10 @@ def make(key, out, kicker, hook, payoff, focus=0.2):
     art = Image.merge("RGB", [im.point(lambda v: int(v * .96)), im.point(lambda v: int(v * .78)), im.point(lambda v: int(v * .52))])
     c = Image.new("RGB", (W, H), NIGHT); c.paste(art, (W - art.width, 0))
     fade = Image.new("L", (W, H)); fd = ImageDraw.Draw(fade)
-    for x in range(W): fd.line([(x, 0), (x, H)], fill=int(255 * max(0, min(1, 1.3 - x / (W * .6)))))
+    x0 = W - art.width
+    for x in range(W):
+        u = max(0.0, min(1.0, (x - x0) / (art.width * 0.38)))
+        fd.line([(x, 0), (x, H)], fill=int(255 * (1 - u * u * (3 - 2 * u))))  # seamless fade from the night ground into the plate
     c = Image.composite(Image.new("RGB", (W, H), NIGHT), c, fade)
     lg = round_logo(92); c.paste(lg, (60, 46), lg)
     d = ImageDraw.Draw(c)

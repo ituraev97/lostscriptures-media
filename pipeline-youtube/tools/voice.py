@@ -18,7 +18,10 @@ def kok():
         _K = Kokoro("/home/claude/tts/kokoro.onnx", "/home/claude/tts/voices.bin")
     return _K
 
+PRON = {"Kufale": "Koo-fah-lay", "Ge'ez": "Gheh-ez", "Qumran": "Koom-rahn", "Ceriani": "Cheriahni", "Tewahedo": "Teh-wah-hay-doh"}
+
 def speak(text):
+    for a, b in PRON.items(): text = text.replace(a, b)
     key = hashlib.md5(f"{VOICE}|{SPEED}|{PITCH}|{text}".encode()).hexdigest()[:14]
     out = os.path.join(VO, key + ".wav")
     if not os.path.exists(out):

@@ -1,4 +1,4 @@
-// The Book of Enoch — documentary film, a pure function of t (seconds).
+// The Lost Scriptures — documentary film, a pure function of t (seconds).
 // Reads timeline.json (narration timing from tools/voice.py). Every frame: Ken Burns on public-domain
 // plates, warm grade, vignette, dust, grain; quote cards, chapter cards, title and end card.
 import * as M from './lib/motion.js';
@@ -7,7 +7,7 @@ const { W, H, clamp, lerp, E, TAU } = M;
 const GOLD = '#c9a45c', IVORY = '#efe6d2', INK = '#0b0906';
 const CROSS = 1.1;          // crossfade seconds between shots
 
-let TL, SHOTS = [], ARK = { n: 0 }, IMGS = {}, GRAIN = [], CREDIT = {}, VIG = [];
+let TL, SHOTS = [], CLIPS = {}, IMGS = {}, GRAIN = [], CREDIT = {}, VIG = [];
 const smooth = (x) => { x = clamp(x); return x * x * (3 - 2 * x); };
 const h01 = (i, s = 1) => M.hash01(i, s);
 
@@ -54,10 +54,13 @@ function drawCover(ctx, im, z, f, alpha = 1) {
 }
 
 function drawShot(ctx, s, t, alpha) {
-  if (s.key === 'film_ark') {
-    if (!ARK.n) return;
-    const k = clamp(Math.floor((t - s.t0) * ARK.fps), 0, ARK.n - 1);
-    const im = IMGS['ark_' + k];
+  if (s.key.startsWith('film_')) {
+    const name = s.key.slice(5), C = CLIPS[name];
+    if (!C || !C.n) return;
+    // ping-pong through the frame run so a long shot never freezes
+    const f = Math.max(0, Math.floor((t - s.t0) * C.fps)), per = Math.max(1, 2 * (C.n - 1));
+    const m = f % per, k = m < C.n ? m : per - m;
+    const im = IMGS[name + '_' + k];
     const p = (t - s.t0) / (s.t1 - s.t0);
     drawCover(ctx, im, 1.0 + 0.06 * p, [0.5, 0.5], alpha);
     return;
@@ -72,7 +75,7 @@ function drawShot(ctx, s, t, alpha) {
 
 // ------------------------------------------------------------------ grade + texture
 function grade(ctx, t, key) {
-  const engraving = key && (key.startsWith('dore_') || key === 'film_ark');
+  const engraving = key && (key.startsWith('dore_') || key.startsWith('film_'));
   const page = key && key.startsWith('ms_');
   // slow candle-like light that drifts across the frame
   const lx = W * (0.35 + 0.25 * Math.sin(t * 0.07)), ly = H * (0.3 + 0.1 * Math.cos(t * 0.05));
@@ -112,11 +115,13 @@ function wrap(ctx, text, maxW) {
 }
 
 function tracked(ctx, str, x, y, track, align = 'center') {
-  const chars = [...str];
-  const widths = chars.map((c) => ctx.measureText(c).width);
-  const total = widths.reduce((a, b) => a + b, 0) + track * (chars.length - 1);
-  let cx = align === 'center' ? x - total / 2 : x;
-  chars.forEach((c, i) => { ctx.fillText(c, cx, y); cx += widths[i] + track; });
+  // native letter-spacing keeps the font's own kerning (per-glyph placement drifted on Cinzel)
+  const prevA = ctx.textAlign, prevLS = ctx.letterSpacing;
+  ctx.letterSpacing = track + 'px';
+  const total = ctx.measureText(str).width - track;
+  ctx.textAlign = 'left';
+  ctx.fillText(str, align === 'center' ? x - total / 2 : x, y);
+  ctx.textAlign = prevA; ctx.letterSpacing = '0px';
   return total;
 }
 
@@ -205,10 +210,10 @@ function endCard(ctx, e, t) {
   ctx.globalAlpha = a; ctx.fillStyle = GOLD; ctx.font = '600 96px Cinzel';
   tracked(ctx, e.text, W / 2, H / 2 - 20, 14);
   ctx.globalAlpha = a * smooth((lt - 1) / 1); ctx.fillStyle = IVORY; ctx.font = '600 40px GaramondItalic';
-  ctx.fillText('Ancient texts. Lost books. The stories behind them.', W / 2, H / 2 + 50);
+  ctx.fillText('Stories from the Bible that most people never hear.', W / 2, H / 2 + 50);
   ctx.globalAlpha = a * smooth((lt - 2) / 1) * 0.7; ctx.font = '600 17px Cinzel'; ctx.fillStyle = IVORY;
-  tracked(ctx, 'ART: GUSTAVE DORÉ (1866) · DAVID ROBERTS (1842–49) · ETHIOPIC TEXT ED. A. DILLMANN (1851)', W / 2, H - 120, 2.2);
-  tracked(ctx, 'FILM: NOAH’S ARK (1928) · TRANSLATIONS: R. H. CHARLES (1917), KING JAMES VERSION', W / 2, H - 90, 2.2);
+  tracked(ctx, 'ART: GUSTAVE DORÉ (1866) · DAVID ROBERTS (1842–49) · ETHIOPIC TEXT ED. A. DILLMANN (1859)', W / 2, H - 120, 2.2);
+  tracked(ctx, 'FILM: THE TEN COMMANDMENTS (1923) · TRANSLATION: R. H. CHARLES (1917)', W / 2, H - 90, 2.2);
   ctx.restore();
 }
 
@@ -219,7 +224,11 @@ function sourceCaption(ctx, s, t) {
   const lt = t - s.t0;
   const a = Math.min(smooth((lt - 0.8) / 0.6), smooth((5.2 - lt) / 0.8));
   if (a <= 0) return;
-  ctx.save(); ctx.globalAlpha = a * 0.9; ctx.fillStyle = IVORY; ctx.font = '600 19px Cinzel'; ctx.textBaseline = 'alphabetic';
+  ctx.save();
+  const bg = ctx.createLinearGradient(0, H - 150, 0, H);
+  bg.addColorStop(0, 'rgba(8,5,2,0)'); bg.addColorStop(1, 'rgba(8,5,2,0.55)');
+  ctx.globalAlpha = a; ctx.fillStyle = bg; ctx.fillRect(0, H - 150, W, 150);
+  ctx.globalAlpha = a * 0.9; ctx.fillStyle = IVORY; ctx.font = '600 19px Cinzel'; ctx.textBaseline = 'alphabetic';
   ctx.shadowColor = 'rgba(0,0,0,0.9)'; ctx.shadowBlur = 8;
   tracked(ctx, c, 96, H - 64, 2.4, 'left');
   ctx.restore();
@@ -227,9 +236,13 @@ function sourceCaption(ctx, s, t) {
 function captionFor(key) {
   if (key.startsWith('dore_')) return 'GUSTAVE DORÉ · ENGRAVING, 1866';
   if (key.startsWith('roberts_')) return 'DAVID ROBERTS · THE HOLY LAND, 1842–49';
+  if (key.startsWith('rs_') || key.startsWith('rd_')) return 'DAVID ROBERTS · THE HOLY LAND, 1842–49';
+  if (key.startsWith('ms_dill')) return 'ETHIOPIC (GE’EZ) TEXT OF JUBILEES · ED. A. DILLMANN, 1859';
+  if (key.startsWith('ms_ch17')) return 'R. H. CHARLES · THE BOOK OF JUBILEES, LONDON, 1917';
   if (key.startsWith('ms_geez')) return 'ETHIOPIC (GE’EZ) TEXT OF 1 ENOCH · ED. A. DILLMANN, 1851';
   if (key === 'ms_charles') return 'R. H. CHARLES · THE BOOK OF ENOCH, OXFORD, 1912';
   if (key === 'film_ark') return 'NOAH’S ARK · 1928';
+  if (key === 'film_climb' || key === 'film_tablets') return 'THE TEN COMMANDMENTS · 1923';
   return null;
 }
 
@@ -239,17 +252,23 @@ M.film({
   samples: 1,
   async init() {
     TL = await fetch('timeline.json').then((r) => r.json());
-    try { ARK = await fetch('ark/ark.json').then((r) => r.json()); } catch { ARK = { n: 0 }; }
-    const keys = [...new Set(TL.ev.map((e) => e.vis).filter((k) => k && k !== 'film_ark'))];
+    const allKeys = [...new Set(TL.ev.map((e) => e.vis).filter((k) => k))];
+    const keys = allKeys.filter((k) => !k.startsWith('film_'));
+    for (const fk of allKeys.filter((k) => k.startsWith('film_'))) {
+      const name = fk.slice(5);
+      try { CLIPS[name] = await fetch(`${name}/${name}.json`).then((r) => r.json()); } catch { CLIPS[name] = { n: 0 }; }
+    }
     await Promise.all(keys.map(async (k) => {
       const im = new Image(); im.src = 'img/' + k + '.jpg';
       try { await im.decode(); IMGS[k] = im; } catch { console.error('missing image', k); }
     }));
-    await Promise.all(Array.from({ length: ARK.n }, async (_, i) => {
-      const im = new Image(); im.src = `ark/f${String(i).padStart(4, '0')}.jpg`;
-      try { await im.decode(); IMGS['ark_' + i] = im; } catch { console.error('missing ark frame', i); }
-    }));
-    for (const k of [...keys, 'film_ark']) { const c = captionFor(k); if (c) CREDIT[k] = c; }
+    for (const [name, C] of Object.entries(CLIPS)) {
+      await Promise.all(Array.from({ length: C.n }, async (_, i) => {
+        const im = new Image(); im.src = `${name}/f${String(i).padStart(4, '0')}.jpg`;
+        try { await im.decode(); IMGS[name + '_' + i] = im; } catch { console.error('missing frame', name, i); }
+      }));
+    }
+    for (const k of allKeys) { const c = captionFor(k); if (c) CREDIT[k] = c; }
     buildShots();
     for (const dark of [0.78, 0.85]) {
       const cv = document.createElement('canvas'); cv.width = W; cv.height = H; const c = cv.getContext('2d');
