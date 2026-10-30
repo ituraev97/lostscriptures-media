@@ -13,3 +13,4 @@
 - Also avoid (done on the book promo reels): Book of Enoch, Book of Jubilees, Ark of the Covenant in Ethiopia.
 - 2026-10-30 — The Bones of Elisha (2 Kings 13:20–21, the dead man revived; Sebaste tomb, Julian 362, Rufinus & Theodoret) — DONE — TikTok+Shorts 2026-10-30 10:00 ET
 - 2026-10-30 — The Earth Swallowed Korah (Numbers 16 & 26:11, the sons of Korah, Psalms 42–49, Samuel's lineage) — DONE — TikTok+Shorts 2026-10-30 13:00 ET
+- 2026-10-30 — The King Who Became a Beast (Daniel 4, Nebuchadnezzar's madness; Prayer of Nabonidus 4Q242, Tayma) — IN PROGRESS (slot 2026-10-30 17:00 ET)
