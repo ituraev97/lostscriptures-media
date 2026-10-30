@@ -14,3 +14,4 @@
 - 2026-10-30 — The Bones of Elisha (2 Kings 13:20–21, the dead man revived; Sebaste tomb, Julian 362, Rufinus & Theodoret) — DONE — TikTok+Shorts 2026-10-30 10:00 ET
 - 2026-10-30 — The Earth Swallowed Korah (Numbers 16 & 26:11, the sons of Korah, Psalms 42–49, Samuel's lineage) — DONE — TikTok+Shorts 2026-10-30 13:00 ET
 - 2026-10-30 — The King Who Became a Beast (Daniel 4, Nebuchadnezzar's madness; Prayer of Nabonidus 4Q242, Tayma) — DONE — TikTok+Shorts 2026-10-30 17:00 ET
+- 2026-10-30 — Elisha and the Two Bears (2 Kings 2:23–25, the 42 youths of Bethel; na'arim qetannim, Bethel's calf shrine) — IN PROGRESS
