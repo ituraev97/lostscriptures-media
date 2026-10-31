@@ -243,6 +243,12 @@ function captionFor(key) {
   if (key === 'ms_charles') return 'R. H. CHARLES · THE BOOK OF ENOCH, OXFORD, 1912';
   if (key === 'film_ark') return 'NOAH’S ARK · 1928';
   if (key === 'film_climb' || key === 'film_tablets') return 'THE TEN COMMANDMENTS · 1923';
+  if (key.startsWith('re_')) return 'DAVID ROBERTS · EGYPT & NUBIA, 1846–49';
+  if (key.startsWith('pox1_') && key !== 'pox1_t') return 'OXYRHYNCHUS PAPYRUS 1 · GRENFELL & HUNT, LOGIA IESOU, 1897';
+  if (key === 'pox1_t') return 'GRENFELL & HUNT · SAYINGS OF OUR LORD, OXFORD, 1897';
+  if (key === 'pox654') return 'OXYRHYNCHUS PAPYRUS 654 · GRENFELL & HUNT, NEW SAYINGS OF JESUS, 1904';
+  if (key === 'ns_t') return 'GRENFELL & HUNT · NEW SAYINGS OF JESUS, OXFORD, 1904';
+  if (key.startsWith('copt_')) return 'COPTIC TEXT OF THE PISTIS SOPHIA (ANOTHER COPTIC BOOK) · BERLIN, 1851';
   return null;
 }
 

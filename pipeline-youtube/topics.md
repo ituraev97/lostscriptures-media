@@ -3,11 +3,11 @@
 ## Done
 - 2026-10-29 — 001 The Book of Enoch: The Lost Book Quoted in the Bible (published 15:45 ET)
 - 2026-10-30 — 002 The Book of Jubilees: Genesis Retold by an Angel on Sinai (scheduled 14:00 ET)
+- 2026-10-31 — 003 The Gospel of Thomas: 114 Sayings of Jesus Found in a Jar (scheduled 14:00 ET)
 
-## Promised next (end of 002): Gospel of Thomas, Apocalypse of Abraham, Book of Giants
+## Promised next (end of 003): Apocalypse of Abraham, Book of Giants, Gospel of Judas
 
 ## Backlog (verify demand and sources before choosing; reorder freely)
-- The Gospel of Thomas — the Nag Hammadi jar (1945) and the Oxyrhynchus fragments (Grenfell & Hunt PD; do not quote modern translations)
 - The Book of Giants — the Watchers' sons, Qumran and the Manichaeans
 - The Apocalypse of Abraham — the idol shop and the heavenly journey
 - The Gospel of Judas — the codex that sat in a bank vault (summarise; modern translation copyrighted)
