@@ -17,3 +17,4 @@
 - 2026-10-30 — Elisha and the Two Bears (2 Kings 2:23–25, the 42 youths of Bethel; na'arim qetannim, Bethel's calf shrine) — DONE — TikTok+Shorts 2026-10-30 20:00 ET
 - 2026-10-31 — Legion and the 2,000 Pigs (Mark 5:1–20, the Gerasene demoniac; Kursi 1970, Legio X Fretensis boar) — DONE — TikTok+Shorts 2026-10-31 10:00 ET
 - 2026-10-31 — The Valley of Dry Bones (Ezekiel 37:1–14; Dura-Europos synagogue fresco, buried 256 AD, found 1932) — DONE — TikTok+Shorts 2026-10-31 13:00 ET
+- 2026-10-31 — The Spirit That Passed Before Eliphaz (Job 4:12–21, the night visitor; Job 42:7 verdict, Paul quotes Job 5:13 in 1 Cor 3:19, Teman's wisdom) — IN PROGRESS
