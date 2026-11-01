@@ -22,4 +22,4 @@
 - 2026-11-01 — Absalom's Hair (2 Samuel 14–18, the oak, Joab's three darts; Josephus Ant. 7.10, 'Absalom's Pillar' in the Kidron, 2003 Zechariah/Simeon inscriptions) — DONE — TikTok+Shorts 2026-11-01 10:00 ET
 - 2026-11-01 — Lot's Wife (Genesis 19, the pillar of salt; Josephus Ant. 1.203 'I have seen it', Mount Sodom, Luke 17:32 'Remember Lot's wife') — DONE — TikTok+Shorts 2026-11-01 13:00 ET
 - 2026-11-01 — The Man Who Touched the Ark (2 Samuel 6, Uzzah at the threshing floor of Nachon; Numbers 4:15, Obed-edom, Kiriath-jearim dig 2017) — DONE — TikTok+Shorts 2026-11-01 17:00 ET
-- 2026-11-01 — Ananias and Sapphira (Acts 5:1–11, the lie about the land; Qumran Community Rule 1QS 6:24–25 property-lie penalty, Acts 4:36–37 Barnabas) — IN PROGRESS (slot 2026-11-01 20:00 ET)
+- 2026-11-01 — Ananias and Sapphira (Acts 5:1–11, the lie about the land; Qumran Community Rule 1QS 6:24–25 property-lie penalty, Acts 4:36–37 Barnabas) — DONE — TikTok+Shorts 2026-11-01 20:00 ET
