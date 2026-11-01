@@ -191,9 +191,14 @@ function titleCard(ctx, e, t) {
   const [title, sub] = e.text.split('|');
   ctx.save(); ctx.textBaseline = 'alphabetic';
   const k = E.outCubic(clamp(lt / 3.2));
-  ctx.globalAlpha = a; ctx.fillStyle = GOLD; ctx.font = '600 128px Cinzel';
+  ctx.globalAlpha = a; ctx.fillStyle = GOLD;
+  // long titles: shrink so the widest (start-of-animation) tracking still fits the frame
+  ctx.font = '600 128px Cinzel'; ctx.letterSpacing = '36px';
+  const tw = ctx.measureText(title).width; ctx.letterSpacing = '0px';
+  const fs = Math.min(128, Math.floor(128 * (W - 220) / tw));
+  ctx.font = `600 ${fs}px Cinzel`;
   ctx.shadowColor = 'rgba(255,200,120,0.45)'; ctx.shadowBlur = 40 * a;
-  tracked(ctx, title, W / 2, H / 2 + 10, lerp(36, 14, k));
+  tracked(ctx, title, W / 2, H / 2 + 10, lerp(36, 14, k) * fs / 128);
   ctx.shadowBlur = 0;
   ctx.fillRect(W / 2 - 420 * k, H / 2 + 50, 840 * k, 2);
   ctx.globalAlpha = a * smooth((lt - 1.2) / 1.0); ctx.fillStyle = IVORY; ctx.font = '600 46px GaramondItalic';
@@ -212,8 +217,8 @@ function endCard(ctx, e, t) {
   ctx.globalAlpha = a * smooth((lt - 1) / 1); ctx.fillStyle = IVORY; ctx.font = '600 40px GaramondItalic';
   ctx.fillText('Stories from the Bible that most people never hear.', W / 2, H / 2 + 50);
   ctx.globalAlpha = a * smooth((lt - 2) / 1) * 0.7; ctx.font = '600 17px Cinzel'; ctx.fillStyle = IVORY;
-  tracked(ctx, 'ART: GUSTAVE DORÉ (1866) · DAVID ROBERTS (1842–49) · ETHIOPIC TEXT ED. A. DILLMANN (1859)', W / 2, H - 120, 2.2);
-  tracked(ctx, 'FILM: THE TEN COMMANDMENTS (1923) · TRANSLATION: R. H. CHARLES (1917)', W / 2, H - 90, 2.2);
+  tracked(ctx, 'ART: GUSTAVE DORÉ (1866) · DAVID ROBERTS (1842–49) · SLAVONIC TEXT ED. N. TIKHONRAVOV (1863)', W / 2, H - 120, 2.2);
+  tracked(ctx, 'FILM: THE TEN COMMANDMENTS (1923) · TRANSLATION: G. H. BOX (1918)', W / 2, H - 90, 2.2);
   ctx.restore();
 }
 
@@ -248,6 +253,9 @@ function captionFor(key) {
   if (key === 'pox1_t') return 'GRENFELL & HUNT · SAYINGS OF OUR LORD, OXFORD, 1897';
   if (key === 'pox654') return 'OXYRHYNCHUS PAPYRUS 654 · GRENFELL & HUNT, NEW SAYINGS OF JESUS, 1904';
   if (key === 'ns_t') return 'GRENFELL & HUNT · NEW SAYINGS OF JESUS, OXFORD, 1904';
+  if (key.startsWith('tikh_')) return 'SLAVONIC TEXT FROM THE 14TH-CENTURY CODEX SYLVESTER · ED. N. TIKHONRAVOV, MOSCOW, 1863';
+  if (key.startsWith('box_')) return 'G. H. BOX · THE APOCALYPSE OF ABRAHAM, LONDON, 1918';
+  if (key === 'bon_t') return 'G. N. BONWETSCH · DIE APOKALYPSE ABRAHAMS, LEIPZIG, 1897';
   if (key.startsWith('copt_')) return 'COPTIC TEXT OF THE PISTIS SOPHIA (ANOTHER COPTIC BOOK) · BERLIN, 1851';
   return null;
 }

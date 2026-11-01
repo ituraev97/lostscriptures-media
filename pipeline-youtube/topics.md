@@ -4,12 +4,12 @@
 - 2026-10-29 — 001 The Book of Enoch: The Lost Book Quoted in the Bible (published 15:45 ET)
 - 2026-10-30 — 002 The Book of Jubilees: Genesis Retold by an Angel on Sinai (scheduled 14:00 ET)
 - 2026-10-31 — 003 The Gospel of Thomas: 114 Sayings of Jesus Found in a Jar (scheduled 14:00 ET)
+- 2026-11-01 — 004 The Apocalypse of Abraham: The Idol-Maker's Son Taken to Heaven (scheduled 14:00 ET)
 
-## Promised next (end of 003): Apocalypse of Abraham, Book of Giants, Gospel of Judas
+## Promised next (end of 004): Book of Giants, Gospel of Judas, Testament of Solomon
 
 ## Backlog (verify demand and sources before choosing; reorder freely)
 - The Book of Giants — the Watchers' sons, Qumran and the Manichaeans
-- The Apocalypse of Abraham — the idol shop and the heavenly journey
 - The Gospel of Judas — the codex that sat in a bank vault (summarise; modern translation copyrighted)
 - The Ethiopian Bible — 81 books and the oldest illustrated Gospels (Garima)
 - The Dead Sea Scrolls — the shepherd, the caves and the Copper Scroll's treasure list
