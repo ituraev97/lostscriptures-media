@@ -20,3 +20,4 @@
 - 2026-10-31 — The Spirit That Passed Before Eliphaz (Job 4:12–21, the night visitor; Job 42:7 verdict, Paul quotes Job 5:13 in 1 Cor 3:19, Teman's wisdom) — DONE — TikTok+Shorts 2026-10-31 17:00 ET
 - 2026-10-31 — Jael and the Tent Peg (Judges 4–5, Sisera, Deborah; Sisera's mother at the window, Song of Deborah among the oldest Hebrew poems) — DONE — TikTok+Shorts 2026-10-31 20:00 ET
 - 2026-11-01 — Absalom's Hair (2 Samuel 14–18, the oak, Joab's three darts; Josephus Ant. 7.10, 'Absalom's Pillar' in the Kidron, 2003 Zechariah/Simeon inscriptions) — DONE — TikTok+Shorts 2026-11-01 10:00 ET
+- 2026-11-01 — Lot's Wife (Genesis 19, the pillar of salt; Josephus Ant. 1.203 'I have seen it', Mount Sodom, Luke 17:32 'Remember Lot's wife') — IN PROGRESS
