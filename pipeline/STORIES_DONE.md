@@ -21,3 +21,4 @@
 - 2026-10-31 — Jael and the Tent Peg (Judges 4–5, Sisera, Deborah; Sisera's mother at the window, Song of Deborah among the oldest Hebrew poems) — DONE — TikTok+Shorts 2026-10-31 20:00 ET
 - 2026-11-01 — Absalom's Hair (2 Samuel 14–18, the oak, Joab's three darts; Josephus Ant. 7.10, 'Absalom's Pillar' in the Kidron, 2003 Zechariah/Simeon inscriptions) — DONE — TikTok+Shorts 2026-11-01 10:00 ET
 - 2026-11-01 — Lot's Wife (Genesis 19, the pillar of salt; Josephus Ant. 1.203 'I have seen it', Mount Sodom, Luke 17:32 'Remember Lot's wife') — DONE — TikTok+Shorts 2026-11-01 13:00 ET
+- 2026-11-01 — The Man Who Touched the Ark (2 Samuel 6, Uzzah at the threshing floor of Nachon; Numbers 4:15, Obed-edom, Kiriath-jearim dig 2017) — IN PROGRESS (slot 2026-11-01 17:00 ET)
