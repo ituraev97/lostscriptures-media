@@ -1,5 +1,9 @@
 # Overrides to PLAYBOOK.md (read first)
 
+0. **Visuals**: read `pipeline/VISUALS.md` — reels are made from REAL public-domain paintings, engravings and silent-film
+   footage (Doré, Tissot, Schnorr, Roberts, films before 1930) with `visuals/pd.py` + `template/src/Photo.tsx`. Drawn vector scenes
+   (Art.tsx) are no longer used for story beats; only overlays (HUD, captions, titles, pins) stay graphic.
+
 1. **Hosting**: do NOT commit videos to `main` (the repo history would grow ~100 MB a day). Host each reel on its own orphan
    branch named after its slot, force-pushed, so old media disappears from history:
    ```
