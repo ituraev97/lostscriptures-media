@@ -21,7 +21,9 @@ def kok():
 PRON = {"Kufale": "Koo-fah-lay", "Ge'ez": "Gheh-ez", "Qumran": "Koom-rahn", "Ceriani": "Cheriahni", "Tewahedo": "Teh-wah-hay-doh",
         "Oxyrhynchus": "Oxy-rinkus", "Hippolytus": "Hip-pollitus", "Naassenes": "Nay-uh-seens", "Nag Hammadi": "Nahg Hah-mah-dee",
         "al-Tarif": "al-Tah-reef", "al-Samman": "al-Sah-mahn",
-        "Merumath": "Meh-roo-math", "Yahoel": "Yah-oh-el", "Tikhonravov": "Tee-khon-rah-voff", "Chaldees": "Kal-dees", "Palaea": "Pah-lay-ah"}
+        "Merumath": "Meh-roo-math", "Yahoel": "Yah-oh-el", "Tikhonravov": "Tee-khon-rah-voff", "Chaldees": "Kal-dees", "Palaea": "Pah-lay-ah",
+        "Beelzeboul": "Beel-zeh-bool", "Ephippas": "Eh-fip-pahs", "Abezethibod": "Ah-beh-zeh-thee-bod", "Adares": "Ah-dah-rees",
+        "Conybeare": "Konny-bair", "Eleazar": "Eh-lee-ay-zar", "decans": "deck-ans", "Raphael": "Raffa-el", "Ittai": "Ee-tie", "Ornias": "Or-nee-ahs"}
 
 def speak(text):
     for a, b in PRON.items(): text = text.replace(a, b)

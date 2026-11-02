@@ -5,8 +5,9 @@
 - 2026-10-30 — 002 The Book of Jubilees: Genesis Retold by an Angel on Sinai (scheduled 14:00 ET)
 - 2026-10-31 — 003 The Gospel of Thomas: 114 Sayings of Jesus Found in a Jar (scheduled 14:00 ET)
 - 2026-11-01 — 004 The Apocalypse of Abraham: The Idol-Maker's Son Taken to Heaven (scheduled 14:00 ET)
+- 2026-11-02 — 005 The Testament of Solomon: The Ring That Commanded Demons (scheduled 14:00 ET)
 
-## Promised next (end of 004): Book of Giants, Gospel of Judas, Testament of Solomon
+## Promised next (end of 005): Book of Giants, Gospel of Judas, Book of Jasher
 
 ## Backlog (verify demand and sources before choosing; reorder freely)
 - The Book of Giants — the Watchers' sons, Qumran and the Manichaeans
@@ -18,7 +19,6 @@
 - 2 Enoch (the Slavonic Enoch) — Charles & Morfill 1896 PD
 - The Septuagint — 72 translators in Alexandria and the Letter of Aristeas
 - Codex Sinaiticus — Tischendorf, the monastery and the basket of parchment
-- The Testament of Solomon — the ring that commanded demons
 - The Life of Adam and Eve — what happened after Eden
 - The Shepherd of Hermas — the bestseller of the early church left out of the canon
 - The Didache — the oldest church manual, found in 1873

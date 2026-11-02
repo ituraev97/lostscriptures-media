@@ -217,8 +217,8 @@ function endCard(ctx, e, t) {
   ctx.globalAlpha = a * smooth((lt - 1) / 1); ctx.fillStyle = IVORY; ctx.font = '600 40px GaramondItalic';
   ctx.fillText('Stories from the Bible that most people never hear.', W / 2, H / 2 + 50);
   ctx.globalAlpha = a * smooth((lt - 2) / 1) * 0.7; ctx.font = '600 17px Cinzel'; ctx.fillStyle = IVORY;
-  tracked(ctx, 'ART: GUSTAVE DORÉ (1866) · DAVID ROBERTS (1842–49) · SLAVONIC TEXT ED. N. TIKHONRAVOV (1863)', W / 2, H - 120, 2.2);
-  tracked(ctx, 'FILM: THE TEN COMMANDMENTS (1923) · TRANSLATION: G. H. BOX (1918)', W / 2, H - 90, 2.2);
+  tracked(ctx, 'ART: GUSTAVE DORÉ (1866) · DAVID ROBERTS (1842–49) · GREEK TEXT ED. C. C. McCOWN (1922)', W / 2, H - 120, 2.2);
+  tracked(ctx, 'FILM: THE TEN COMMANDMENTS (1923) · TRANSLATIONS: F. C. CONYBEARE (1898), W. WHISTON (1737)', W / 2, H - 90, 2.2);
   ctx.restore();
 }
 
@@ -256,6 +256,11 @@ function captionFor(key) {
   if (key.startsWith('tikh_')) return 'SLAVONIC TEXT FROM THE 14TH-CENTURY CODEX SYLVESTER · ED. N. TIKHONRAVOV, MOSCOW, 1863';
   if (key.startsWith('box_')) return 'G. H. BOX · THE APOCALYPSE OF ABRAHAM, LONDON, 1918';
   if (key === 'bon_t') return 'G. N. BONWETSCH · DIE APOKALYPSE ABRAHAMS, LEIPZIG, 1897';
+  if (key.startsWith('rj_')) return 'DAVID ROBERTS · JERUSALEM, THE HOLY LAND, 1842–49';
+  if (key === 'film_redsea') return 'THE TEN COMMANDMENTS · 1923';
+  if (key === 'mc_t') return 'C. C. McCOWN · THE TESTAMENT OF SOLOMON, LEIPZIG, 1922';
+  if (key === 'mc_g') return 'GREEK TEXT OF THE TESTAMENT OF SOLOMON · ED. C. C. McCOWN, LEIPZIG, 1922';
+  if (key.startsWith('cony_')) return 'F. C. CONYBEARE · THE TESTAMENT OF SOLOMON, JEWISH QUARTERLY REVIEW, 1898';
   if (key.startsWith('copt_')) return 'COPTIC TEXT OF THE PISTIS SOPHIA (ANOTHER COPTIC BOOK) · BERLIN, 1851';
   return null;
 }
