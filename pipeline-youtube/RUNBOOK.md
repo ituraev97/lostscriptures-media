@@ -76,8 +76,8 @@ mkdir -p long && cp ../work/out/video.mp4 long/video.mp4 && cp ../work/out/thumb
 git add long && git commit -qm "media: <slug>" && git push -f origin media-long-tmp:media-long && git checkout -q main
 ```
   URLs: `https://raw.githubusercontent.com/ituraev97/lostscriptures-media/media-long/long/video.mp4` and `.../long/thumb.jpg` (check HTTP 200 and the right size). Metricool copies the file at scheduling time, so the branch can be overwritten the next day.
-- Metricool: `createScheduledPost`, blogId 7718820, providers `[{"network":"youtube"}]`, autoPublish true, text = description, `youtubeData {title, type "video", privacy "public", madeForKids false, category "EDUCATION", isAiGeneratedContent true, tags [12–18]}`, `videoThumbnailUrl` = thumb URL (if rejected with VIDEO_THUMBNAIL_NOT_APPLICABLE, retry once without it), publicationDate 14:00 America/New_York on the target date.
-- Description: 2-line hook summary; "CHAPTERS" with m:ss from `film/timeline.json` (0:00 first); "SOURCES & TRANSLATIONS"; "ART & FOOTAGE (public domain)" with every source; "Narration voice and music are synthetic."; the closing question; 5–7 hashtags. Title ≤ 70 characters, keyword first, true.
+- Metricool: `createScheduledPost`, blogId 7718820, providers `[{"network":"youtube"}]`, autoPublish true, text = description, `youtubeData {title, type "video", privacy "public", madeForKids false, category "EDUCATION", tags [12–18]} (owner's decision: NO AI label — never set isAiGeneratedContent)`, `videoThumbnailUrl` = thumb URL (if rejected with VIDEO_THUMBNAIL_NOT_APPLICABLE, retry once without it), publicationDate 14:00 America/New_York on the target date.
+- Description: 2-line hook summary; "CHAPTERS" with m:ss from `film/timeline.json` (0:00 first); "SOURCES & TRANSLATIONS"; "ART & FOOTAGE (public domain)" with every source; the closing question; 5–7 hashtags. Title ≤ 70 characters, keyword first, true.
 
 ## 7. Record
 
