@@ -24,4 +24,4 @@
 - 2026-11-01 — The Man Who Touched the Ark (2 Samuel 6, Uzzah at the threshing floor of Nachon; Numbers 4:15, Obed-edom, Kiriath-jearim dig 2017) — DONE — TikTok+Shorts 2026-11-01 17:00 ET
 - 2026-11-01 — Ananias and Sapphira (Acts 5:1–11, the lie about the land; Qumran Community Rule 1QS 6:24–25 property-lie penalty, Acts 4:36–37 Barnabas) — DONE — TikTok+Shorts 2026-11-01 20:00 ET
 - 2026-11-02 — Jephthah's Vow (Judges 11, Jephthah's daughter; Judges 11:39–40 four-day lament, Kimchi's dedication reading vs Josephus Ant. 5.266) — DONE — TikTok+Shorts 2026-11-02 10:00 ET
-- 2026-11-02 — The Day the Sun Stood Still (Joshua 10, Gibeon & Aijalon, hailstones, Book of Jasher; Humphreys & Waddington 2017 eclipse of 30 Oct 1207 BC, Merneptah Stele) — IN PROGRESS
+- 2026-11-02 — The Day the Sun Stood Still (Joshua 10, Gibeon & Aijalon, hailstones, Book of Jasher; Humphreys & Waddington 2017 eclipse of 30 Oct 1207 BC, Merneptah Stele) — DONE — TikTok+Shorts 2026-11-02 13:00 ET
