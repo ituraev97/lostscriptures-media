@@ -25,4 +25,4 @@
 - 2026-11-01 — Ananias and Sapphira (Acts 5:1–11, the lie about the land; Qumran Community Rule 1QS 6:24–25 property-lie penalty, Acts 4:36–37 Barnabas) — DONE — TikTok+Shorts 2026-11-01 20:00 ET
 - 2026-11-02 — Jephthah's Vow (Judges 11, Jephthah's daughter; Judges 11:39–40 four-day lament, Kimchi's dedication reading vs Josephus Ant. 5.266) — DONE — TikTok+Shorts 2026-11-02 10:00 ET
 - 2026-11-02 — The Day the Sun Stood Still (Joshua 10, Gibeon & Aijalon, hailstones, Book of Jasher; Humphreys & Waddington 2017 eclipse of 30 Oct 1207 BC, Merneptah Stele) — DONE — TikTok+Shorts 2026-11-02 13:00 ET
-- 2026-11-02 — Gideon's 300 (Judges 6–8, the fleece, the water test, jars & torches, Midian's camp turns on itself; Jerubbaal jug inscription, Khirbet al-Ra'i 2021) — IN PROGRESS
+- 2026-11-02 — Gideon's 300 (Judges 6–8, the fleece, the water test, jars & torches, Midian's camp turns on itself; Jerubbaal jug inscription, Khirbet al-Ra'i 2021) — DONE — TikTok+Shorts 2026-11-02 17:00 ET
