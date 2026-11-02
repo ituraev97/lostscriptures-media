@@ -26,4 +26,4 @@
 - 2026-11-02 — Jephthah's Vow (Judges 11, Jephthah's daughter; Judges 11:39–40 four-day lament, Kimchi's dedication reading vs Josephus Ant. 5.266) — DONE — TikTok+Shorts 2026-11-02 10:00 ET
 - 2026-11-02 — The Day the Sun Stood Still (Joshua 10, Gibeon & Aijalon, hailstones, Book of Jasher; Humphreys & Waddington 2017 eclipse of 30 Oct 1207 BC, Merneptah Stele) — DONE — TikTok+Shorts 2026-11-02 13:00 ET
 - 2026-11-02 — Gideon's 300 (Judges 6–8, the fleece, the water test, jars & torches, Midian's camp turns on itself; Jerubbaal jug inscription, Khirbet al-Ra'i 2021) — DONE — TikTok+Shorts 2026-11-02 17:00 ET
-- 2026-11-02 — The Tower of Babel (Genesis 11:1–9, Etemenanki ziggurat; Tower of Babel stele MS 2063, Pedersén 2024, Herodotus 1.181) — IN PROGRESS
+- 2026-11-02 — The Tower of Babel (Genesis 11:1–9, Etemenanki ziggurat; Tower of Babel stele MS 2063, Pedersén 2024, Herodotus 1.181) — DONE — TikTok+Shorts 2026-11-02 20:00 ET
