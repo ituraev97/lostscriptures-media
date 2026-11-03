@@ -23,7 +23,10 @@ PRON = {"Kufale": "Koo-fah-lay", "Ge'ez": "Gheh-ez", "Qumran": "Koom-rahn", "Cer
         "al-Tarif": "al-Tah-reef", "al-Samman": "al-Sah-mahn",
         "Merumath": "Meh-roo-math", "Yahoel": "Yah-oh-el", "Tikhonravov": "Tee-khon-rah-voff", "Chaldees": "Kal-dees", "Palaea": "Pah-lay-ah",
         "Beelzeboul": "Beel-zeh-bool", "Ephippas": "Eh-fip-pahs", "Abezethibod": "Ah-beh-zeh-thee-bod", "Adares": "Ah-dah-rees",
-        "Conybeare": "Konny-bair", "Eleazar": "Eh-lee-ay-zar", "decans": "deck-ans", "Raphael": "Raffa-el", "Ittai": "Ee-tie", "Ornias": "Or-nee-ahs"}
+        "Conybeare": "Konny-bair", "Eleazar": "Eh-lee-ay-zar", "decans": "deck-ans", "Raphael": "Raffa-el", "Ittai": "Ee-tie", "Ornias": "Or-nee-ahs",
+        "Ohyah": "Oh-yah", "Hahyah": "Hah-yah", "Mahaway": "Mah-hah-way", "Shemihazah": "Shem-ee-hah-zah", "Hobabish": "Ho-bah-bish",
+        "Gilgamesh": "Gill-gah-mesh", "Kocho": "Koh-cho", "Ogias": "Oh-gee-ahs", "Uruk": "Oo-rook", "Uyghur": "Wee-gur", "Manichaeism": "Manny-kee-ism",
+        "Manichaean": "Manny-kee-an", "Mani ": "Mah-nee ", "Mani's": "Mah-nee's", "Turfan": "Toor-fahn", "Jozef": "Yoo-zef", "Milik": "Mee-leek", "Le Coq": "Le Coke"}
 
 def speak(text):
     for a, b in PRON.items(): text = text.replace(a, b)
