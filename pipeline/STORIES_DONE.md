@@ -30,4 +30,4 @@
 - 2026-11-03 — Bel and the Dragon (Daniel 14 / Additions to Daniel: the footprints in the ashes, the dragon and the cakes of pitch, the lions' den, Habakkuk carried by his hair; Herodotus 1.181–183 temple of Bel) — DONE — TikTok+Shorts 2026-11-03 10:00 ET
 - 2026-11-03 — Haman's Gallows (Esther 3–7, the 50-cubit gallows, the sleepless king, the reversal; Persepolis tablet 'Marduka', Ungnad 1940, Herodotus 7–9 Xerxes) — DONE — TikTok+Shorts 2026-11-03 13:00 ET
 - 2026-11-03 — Fire on Mount Carmel (1 Kings 18, Elijah vs the 450 prophets of Baal, the drought, 'perhaps he is asleep', fire from heaven; Menander of Tyre via Josephus Ant. 8.324 drought under Ithobaal) — DONE — TikTok+Shorts 2026-11-03 17:00 ET
-- 2026-11-03 — The Fiery Furnace (Daniel 3, Shadrach, Meshach & Abednego, the fourth man in the fire; Jeremiah 29:22, Rim-Sin furnace letter) — IN PROGRESS
+- 2026-11-03 — The Fiery Furnace (Daniel 3, Shadrach, Meshach & Abednego, the fourth man in the fire; Jeremiah 29:22, Old Babylonian Rim-Sin kiln letter) — DONE — TikTok+Shorts 2026-11-03 20:00 ET
