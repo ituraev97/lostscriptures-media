@@ -32,3 +32,4 @@
 - 2026-11-03 — Fire on Mount Carmel (1 Kings 18, Elijah vs the 450 prophets of Baal, the drought, 'perhaps he is asleep', fire from heaven; Menander of Tyre via Josephus Ant. 8.324 drought under Ithobaal) — DONE — TikTok+Shorts 2026-11-03 17:00 ET
 - 2026-11-03 — The Fiery Furnace (Daniel 3, Shadrach, Meshach & Abednego, the fourth man in the fire; Jeremiah 29:22, Old Babylonian Rim-Sin kiln letter) — DONE — TikTok+Shorts 2026-11-03 20:00 ET
 - 2026-11-04 — Rizpah's Vigil (2 Samuel 21:1–14, the famine, the Gibeonites, the seven sons of Saul, a mother guards them from barley harvest to rain; Joshua 9 treaty, Pritchard's Gibeon jar handles 1956) — DONE — TikTok+Shorts 2026-11-04 10:00 ET
+- 2026-11-04 — The Giants the Spies Saw (Numbers 13–14, the twelve spies, the sons of Anak, 'like grasshoppers', forty years; Caleb takes Hebron at 85, Joshua 14; Papyrus Anastasi I) — IN PROGRESS
