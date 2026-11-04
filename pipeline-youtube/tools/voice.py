@@ -26,7 +26,9 @@ PRON = {"Kufale": "Koo-fah-lay", "Ge'ez": "Gheh-ez", "Qumran": "Koom-rahn", "Cer
         "Conybeare": "Konny-bair", "Eleazar": "Eh-lee-ay-zar", "decans": "deck-ans", "Raphael": "Raffa-el", "Ittai": "Ee-tie", "Ornias": "Or-nee-ahs",
         "Ohyah": "Oh-yah", "Hahyah": "Hah-yah", "Mahaway": "Mah-hah-way", "Shemihazah": "Shem-ee-hah-zah", "Hobabish": "Ho-bah-bish",
         "Gilgamesh": "Gill-gah-mesh", "Kocho": "Koh-cho", "Ogias": "Oh-gee-ahs", "Uruk": "Oo-rook", "Uyghur": "Wee-gur", "Manichaeism": "Manny-kee-ism",
-        "Manichaean": "Manny-kee-an", "Mani ": "Mah-nee ", "Mani's": "Mah-nee's", "Turfan": "Toor-fahn", "Jozef": "Yoo-zef", "Milik": "Mee-leek", "Le Coq": "Le Coke"}
+        "Manichaean": "Manny-kee-an", "Mani ": "Mah-nee ", "Mani's": "Mah-nee's", "Turfan": "Toor-fahn", "Jozef": "Yoo-zef", "Milik": "Mee-leek", "Le Coq": "Le Coke",
+        "Sefer ha-Yashar": "Seffer hah-Yah-shar", "yashar": "yah-shar", "Jasher": "Jay-sher", "shir": "sheer", "Gibeon": "Ghib-ee-un", "Kush": "Koosh",
+        "Modena": "Moh-deh-nah", "Charlemagne": "Sharl-uh-main", "Ilive": "Eye-live", "Josippon": "Yo-sip-pon", "Sidrus": "Sid-roos"}
 
 def speak(text):
     for a, b in PRON.items(): text = text.replace(a, b)

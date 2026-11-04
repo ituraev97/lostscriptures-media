@@ -265,6 +265,9 @@ function captionFor(key) {
   if (key.startsWith('jm_')) return 'M. R. JAMES · THE LOST APOCRYPHA OF THE OLD TESTAMENT, LONDON, 1920';
   if (key.startsWith('rh_') || key.startsWith('rt_') || key.startsWith('rg_')) return 'DAVID ROBERTS · THE HOLY LAND, 1842–49';
   if (key === 'film_wave' || key === 'film_city') return 'NOAH’S ARK · 1928';
+  if (key.startsWith('jn40_')) return 'THE BOOK OF JASHER · TR. M. SAMUEL, NEW YORK, 1840';
+  if (key === 'ji29_t') return 'THE ‘ALCUIN’ BOOK OF JASHER · BRISTOL REPRINT, 1829';
+  if (key.startsWith('ji51_')) return 'THE ‘ALCUIN’ BOOK OF JASHER (J. ILIVE) · LONDON, 1751';
   if (key.startsWith('copt_')) return 'COPTIC TEXT OF THE PISTIS SOPHIA (ANOTHER COPTIC BOOK) · BERLIN, 1851';
   return null;
 }
