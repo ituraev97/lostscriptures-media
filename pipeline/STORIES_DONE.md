@@ -34,4 +34,4 @@
 - 2026-11-04 — Rizpah's Vigil (2 Samuel 21:1–14, the famine, the Gibeonites, the seven sons of Saul, a mother guards them from barley harvest to rain; Joshua 9 treaty, Pritchard's Gibeon jar handles 1956) — DONE — TikTok+Shorts 2026-11-04 10:00 ET
 - 2026-11-04 — The Giants the Spies Saw (Numbers 13–14, the twelve spies, the sons of Anak, 'like grasshoppers', forty years; Caleb takes Hebron at 85, Joshua 14; Papyrus Anastasi I) — DONE — TikTok+Shorts 2026-11-04 13:00 ET
 - 2026-11-04 — Abigail and Nabal (1 Samuel 25, the fool of Carmel, David's 400 swords, Abigail's ride, Nabal's heart 'became as a stone'; Calebite Nabal, Levenson 1978) — DONE — TikTok+Shorts 2026-11-04 17:00 ET
-- 2026-11-04 — Daniel in the Lions' Den (Daniel 6, the law of the Medes and Persians, the sealed stone, the accusers thrown in; Diodorus 17.30 Darius III & Charidemus) — IN PROGRESS
+- 2026-11-04 — Daniel in the Lions' Den (Daniel 6, the law of the Medes and Persians, the sealed stone, the accusers thrown in; Diodorus 17.30 Darius III & Charidemus) — DONE — TikTok+Shorts 2026-11-04 20:00 ET
