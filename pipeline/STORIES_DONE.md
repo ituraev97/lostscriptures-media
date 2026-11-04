@@ -31,3 +31,4 @@
 - 2026-11-03 — Haman's Gallows (Esther 3–7, the 50-cubit gallows, the sleepless king, the reversal; Persepolis tablet 'Marduka', Ungnad 1940, Herodotus 7–9 Xerxes) — DONE — TikTok+Shorts 2026-11-03 13:00 ET
 - 2026-11-03 — Fire on Mount Carmel (1 Kings 18, Elijah vs the 450 prophets of Baal, the drought, 'perhaps he is asleep', fire from heaven; Menander of Tyre via Josephus Ant. 8.324 drought under Ithobaal) — DONE — TikTok+Shorts 2026-11-03 17:00 ET
 - 2026-11-03 — The Fiery Furnace (Daniel 3, Shadrach, Meshach & Abednego, the fourth man in the fire; Jeremiah 29:22, Old Babylonian Rim-Sin kiln letter) — DONE — TikTok+Shorts 2026-11-03 20:00 ET
+- 2026-11-04 — Rizpah's Vigil (2 Samuel 21:1–14, the famine, the Gibeonites, the seven sons of Saul, a mother guards them from barley harvest to rain; Joshua 9 treaty, Pritchard's Gibeon jar handles 1956) — IN PROGRESS (slot 2026-11-04 10:00 ET)
