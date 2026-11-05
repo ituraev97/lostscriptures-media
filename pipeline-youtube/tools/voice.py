@@ -28,7 +28,11 @@ PRON = {"Kufale": "Koo-fah-lay", "Ge'ez": "Gheh-ez", "Qumran": "Koom-rahn", "Cer
         "Gilgamesh": "Gill-gah-mesh", "Kocho": "Koh-cho", "Ogias": "Oh-gee-ahs", "Uruk": "Oo-rook", "Uyghur": "Wee-gur", "Manichaeism": "Manny-kee-ism",
         "Manichaean": "Manny-kee-an", "Mani ": "Mah-nee ", "Mani's": "Mah-nee's", "Turfan": "Toor-fahn", "Jozef": "Yoo-zef", "Milik": "Mee-leek", "Le Coq": "Le Coke",
         "Sefer ha-Yashar": "Seffer hah-Yah-shar", "yashar": "yah-shar", "Jasher": "Jay-sher", "shir": "sheer", "Gibeon": "Ghib-ee-un", "Kush": "Koosh",
-        "Modena": "Moh-deh-nah", "Charlemagne": "Sharl-uh-main", "Ilive": "Eye-live", "Josippon": "Yo-sip-pon", "Sidrus": "Sid-roos"}
+        "Modena": "Moh-deh-nah", "Charlemagne": "Sharl-uh-main", "Ilive": "Eye-live", "Josippon": "Yo-sip-pon", "Sidrus": "Sid-roos",
+        "Irenaeus": "Eye-ren-ee-us", "Tchacos": "Chah-koss", "Nussberger": "Noos-bair-ger", "Barbelo": "Bar-beh-low", "Saklas": "Sack-lass",
+        "Minya": "Min-yah", "Maecenas": "My-see-nus", "Darbre": "Dar-bruh", "Wurst": "Voorst", "Rodolphe": "Ro-dolf", "Kasser": "Kass-air",
+        "Allogenes": "Al-lodge-eh-neez", "DeConick": "Deh-Connick", "daimon": "dye-moan", "Sethian": "Seeth-ee-an", "Hicksville": "Hicks-vill",
+        "Emmel": "Em-mel", "Pagels": "Pay-gulls", "Esau": "Ee-saw", "Korah": "Kor-ah", "Lyon": "Lee-on"}
 
 def speak(text):
     for a, b in PRON.items(): text = text.replace(a, b)

@@ -217,8 +217,8 @@ function endCard(ctx, e, t) {
   ctx.globalAlpha = a * smooth((lt - 1) / 1); ctx.fillStyle = IVORY; ctx.font = '600 40px GaramondItalic';
   ctx.fillText('Stories from the Bible that most people never hear.', W / 2, H / 2 + 50);
   ctx.globalAlpha = a * smooth((lt - 2) / 1) * 0.7; ctx.font = '600 17px Cinzel'; ctx.fillStyle = IVORY;
-  tracked(ctx, 'ART: GUSTAVE DORÉ (1866) · DAVID ROBERTS (1842–49) · A. VON LE COQ, CHOTSCHO (1913)', W / 2, H - 120, 2.2);
-  tracked(ctx, 'FILM: NOAH’S ARK (1928) · TEXTS: KJV · R. H. CHARLES (1917) · M. R. JAMES (1920)', W / 2, H - 90, 2.2);
+  tracked(ctx, 'ART: GUSTAVE DORÉ (1866) · JAMES TISSOT (1899) · DAVID ROBERTS (1846–49)', W / 2, H - 120, 2.2);
+  tracked(ctx, 'TEXTS: KING JAMES VERSION · IRENAEUS, TR. ROBERTS & RAMBAUT (1885)', W / 2, H - 90, 2.2);
   ctx.restore();
 }
 
@@ -269,6 +269,8 @@ function captionFor(key) {
   if (key === 'ji29_t') return 'THE ‘ALCUIN’ BOOK OF JASHER · BRISTOL REPRINT, 1829';
   if (key.startsWith('ji51_')) return 'THE ‘ALCUIN’ BOOK OF JASHER (J. ILIVE) · LONDON, 1751';
   if (key.startsWith('copt_')) return 'COPTIC TEXT OF THE PISTIS SOPHIA (ANOTHER COPTIC BOOK) · BERLIN, 1851';
+  if (key.startsWith('tis_')) return 'JAMES TISSOT · THE LIFE OF OUR SAVIOUR JESUS CHRIST, 1899';
+  if (key.startsWith('anf_')) return 'IRENAEUS, AGAINST HERESIES · THE ANTE-NICENE FATHERS, VOL. I, BUFFALO, 1887';
   return null;
 }
 
