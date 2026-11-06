@@ -18,7 +18,7 @@ def kok():
         _K = Kokoro("/home/claude/tts/kokoro.onnx", "/home/claude/tts/voices.bin")
     return _K
 
-PRON = {"Kufale": "Koo-fah-lay", "Ge'ez": "Gheh-ez", "Qumran": "Koom-rahn", "Ceriani": "Cheriahni", "Tewahedo": "Teh-wah-hay-doh",
+PRON = {"Zacchaeus": "Zak-kee-us", "Lajos Berkes": "Lah-yosh Bair-kesh", "Berkes": "Bair-kesh", "Nocchi Macedo": "Nokki Mah-say-doh", "Aasgaard": "Oss-gord", "Epiphanius": "Eppi-fay-nee-us", "Salamis": "Sal-uh-miss", "Chrysostom": "Kriss-us-tum", "Gelasian": "Jeh-lay-zhun", "Protevangelium": "Pro-teh-van-jell-ee-um", "Pseudo Matthew": "Soo-doh Matthew", "Quran": "Kor-ahn", "Annas": "Ann-us", "Zeno": "Zee-no", "Saviour": "Savior", "papyrologists": "pappy-rollo-jists", "Kufale": "Koo-fah-lay", "Ge'ez": "Gheh-ez", "Qumran": "Koom-rahn", "Ceriani": "Cheriahni", "Tewahedo": "Teh-wah-hay-doh",
         "Oxyrhynchus": "Oxy-rinkus", "Hippolytus": "Hip-pollitus", "Naassenes": "Nay-uh-seens", "Nag Hammadi": "Nahg Hah-mah-dee",
         "al-Tarif": "al-Tah-reef", "al-Samman": "al-Sah-mahn",
         "Merumath": "Meh-roo-math", "Yahoel": "Yah-oh-el", "Tikhonravov": "Tee-khon-rah-voff", "Chaldees": "Kal-dees", "Palaea": "Pah-lay-ah",
