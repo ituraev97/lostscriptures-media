@@ -38,3 +38,4 @@
 - 2026-11-05 — Paul's Shipwreck on Malta (Acts 27–28, the Euroclydon storm, 276 aboard, fourteen days, the viper; Josephus Life 3 shipwreck, Lucian's grain ship Isis) — DONE — TikTok+Shorts 2026-11-05 10:00 ET
 - 2026-11-05 — The Bronze Serpent (Numbers 21:4–9, the fiery serpents, the pole; 2 Kings 18:4 Hezekiah smashes Nehushtan, John 3:14; Rothenberg's Timna copper snake 1969) — DONE — TikTok+Shorts 2026-11-05 17:00 ET
 - 2026-11-05 — Elijah's Letter From Beyond (2 Kings 2 chariot of fire & whirlwind, the mantle parts the Jordan; 2 Chronicles 21:12–15 the letter to King Jehoram, Josephus Ant. 9.99) — DONE — TikTok+Shorts 2026-11-05 20:00 ET
+- 2026-11-06 — Athaliah's Coup (2 Kings 11 / 2 Chronicles 22–23, the queen who seized Judah, the infant Joash hidden six years in the Temple, 'Treason!'; Tel Dan Stele, Hazael) — IN PROGRESS
