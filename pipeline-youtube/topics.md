@@ -10,11 +10,11 @@
 - 2026-11-04 — 007 The Book of Jasher: The Lost Book the Bible Quotes Twice (scheduled 14:00 ET)
 - 2026-11-05 — 008 The Gospel of Judas: The Lost Gospel That Sat in a Bank Vault (scheduled 14:00 ET)
 - 2026-11-06 — 009 The Infancy Gospel of Thomas: Jesus as a Boy and the Clay Birds (scheduled 14:00 ET)
+- 2026-11-07 — 010 Why Does the Ethiopian Bible Have 81 Books? (scheduled 14:00 ET)
 
-## Promised next (end of 009): Ethiopian Bible, Book of the Wars of the Lord, Protevangelium of James
+## Promised next (end of 010): Book of the Wars of the Lord, Protevangelium of James, 2 Enoch
 
 ## Backlog (verify demand and sources before choosing; reorder freely)
-- The Ethiopian Bible — 81 books and the oldest illustrated Gospels (Garima)
 - The Dead Sea Scrolls — the shepherd, the caves and the Copper Scroll's treasure list
 - The Protevangelium of James — Mary's childhood (ANF vol. 8, 1886, PD)
 - 2 Enoch (the Slavonic Enoch) — Charles & Morfill 1896 PD

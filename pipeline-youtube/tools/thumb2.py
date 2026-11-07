@@ -11,13 +11,17 @@ ns = {"__file__": os.path.join(os.path.dirname(__file__), "brand2.py")}; exec(sr
 gold_text, cinzel, corm_i, round_logo, CREAM, NIGHT = ns["gold_text"], ns["cinzel"], ns["corm_i"], ns["round_logo"], ns["CREAM"], ns["NIGHT"]
 W, H = 1280, 720
 
-def make(key, out, kicker, hook, payoff, focus=0.2):
-    im = Image.open(os.path.join(ROOT, "film", "img", f"dore_{key}.jpg")).convert("L")
+def make(key, out, kicker, hook, payoff, focus=0.2, img=None, color=False):
+    # img: any film/img/<img>.jpg instead of a Doré plate; color: keep the colours (Ethiopian paintings)
+    im = Image.open(os.path.join(ROOT, "film", "img", f"{img}.jpg" if img else f"dore_{key}.jpg")).convert("RGB" if color else "L")
     im = im.crop((int(im.width * .03), int(im.height * .02), int(im.width * .97), int(im.height * .98)))
-    im = ImageEnhance.Contrast(im).enhance(1.4)
+    im = ImageEnhance.Contrast(im).enhance(1.15 if color else 1.4)
     s = max(W * 0.62 / im.width, H / im.height); im = im.resize((int(im.width * s), int(im.height * s)), Image.LANCZOS)
     y = int((im.height - H) * focus); im = im.crop((0, y, im.width, y + H))
-    art = Image.merge("RGB", [im.point(lambda v: int(v * .96)), im.point(lambda v: int(v * .78)), im.point(lambda v: int(v * .52))])
+    if color:
+        art = ImageEnhance.Color(im).enhance(1.1)
+    else:
+        art = Image.merge("RGB", [im.point(lambda v: int(v * .96)), im.point(lambda v: int(v * .78)), im.point(lambda v: int(v * .52))])
     c = Image.new("RGB", (W, H), NIGHT); c.paste(art, (W - art.width, 0))
     fade = Image.new("L", (W, H)); fd = ImageDraw.Draw(fade)
     x0 = W - art.width
@@ -40,4 +44,4 @@ if __name__ == "__main__":
     # thumb.json: [{"plate": "195", "out": "out/thumbnail_A.jpg", "kicker": "THE BOOK OF ENOCH", "hook": ["LEFT OUT", "OF THE BIBLE"], "payoff": "200 ANGELS. ONE WARNING.", "focus": 0.2}, ...]
     import json
     for t in json.load(open(sys.argv[1])):
-        make(t["plate"], os.path.join(ROOT, t["out"]), t["kicker"], t["hook"], t["payoff"], t.get("focus", 0.2))
+        make(t.get("plate"), os.path.join(ROOT, t["out"]), t["kicker"], t["hook"], t["payoff"], t.get("focus", 0.2), t.get("img"), t.get("color", False))
