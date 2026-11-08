@@ -11,13 +11,13 @@
 - 2026-11-05 — 008 The Gospel of Judas: The Lost Gospel That Sat in a Bank Vault (scheduled 14:00 ET)
 - 2026-11-06 — 009 The Infancy Gospel of Thomas: Jesus as a Boy and the Clay Birds (scheduled 14:00 ET)
 - 2026-11-07 — 010 Why Does the Ethiopian Bible Have 81 Books? (scheduled 14:00 ET)
+- 2026-11-08 — 011 What Did Enoch See in the 10 Heavens? (2 Enoch Explained) (scheduled 14:00 ET)
 
-## Promised next (end of 010): Book of the Wars of the Lord, Protevangelium of James, 2 Enoch
+## Promised next (end of 011): Book of the Wars of the Lord, Protevangelium of James, Life of Adam and Eve
 
 ## Backlog (verify demand and sources before choosing; reorder freely)
 - The Dead Sea Scrolls — the shepherd, the caves and the Copper Scroll's treasure list
 - The Protevangelium of James — Mary's childhood (ANF vol. 8, 1886, PD)
-- 2 Enoch (the Slavonic Enoch) — Charles & Morfill 1896 PD
 - The Septuagint — 72 translators in Alexandria and the Letter of Aristeas
 - Codex Sinaiticus — Tischendorf, the monastery and the basket of parchment
 - The Life of Adam and Eve — what happened after Eden
