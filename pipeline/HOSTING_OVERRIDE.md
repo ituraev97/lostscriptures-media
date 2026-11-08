@@ -4,17 +4,19 @@
    footage (Doré, Tissot, Schnorr, Roberts, films before 1930) with `visuals/pd.py` + `template/src/Photo.tsx`. Drawn vector scenes
    (Art.tsx) are no longer used for story beats; only overlays (HUD, captions, titles, pins) stay graphic.
 
-1. **Hosting**: do NOT commit videos to `main` (the repo history would grow ~100 MB a day). Host each reel on its own orphan
-   branch named after its slot, force-pushed, so old media disappears from history:
+1. **Hosting**: do NOT commit videos to `main`. Host each reel on a FIXED slot branch, force-pushed every day:
+   `media-reel-1000`, `media-reel-1300`, `media-reel-1700`, `media-reel-2000` (the ET slot time). Overwriting the same 4 branches
+   keeps the repository from growing (old media becomes unreachable and GitHub garbage-collects it). Deleting branches is NOT
+   permitted from these sessions, so never create new dated branches.
    ```
-   cd ~/lostscriptures-media && B=media-reel-<YYYYMMDD>-<HHMM>   # the ET slot date/time
+   cd ~/lostscriptures-media && B=media-reel-<HHMM>   # the ET slot time
    git checkout -q --orphan tmp-$B && git rm -rq --cached . && git clean -fdq
    mkdir -p r && cp <work>/video.mp4 r/video.mp4 && cp <work>/cover.jpg r/cover.jpg
    git add r && git commit -qm "media: <slug>" && git push -qf origin tmp-$B:$B && git checkout -q -f main
    ```
-   URLs: `https://raw.githubusercontent.com/ituraev97/lostscriptures-media/<B>/r/video.mp4` and `.../r/cover.jpg` (check HTTP 200).
-   Metricool copies the media when the post is created. Housekeeping: delete remote `media-reel-*` branches older than 3 days
-   (`git ls-remote --heads origin 'media-reel-*'`, then `git push origin --delete <name>`).
+   URLs: `https://raw.githubusercontent.com/ituraev97/lostscriptures-media/<B>/r/video.mp4` and `.../r/cover.jpg` (check HTTP 200
+   and that the size matches the new file; raw.githubusercontent.com may cache for a few minutes, so add `?v=<unix time>` to the
+   URLs you give Metricool). Metricool copies the media when the post is created, so tomorrow's overwrite is safe.
 2. **Stories list**: the source of truth is `pipeline/STORIES_DONE.md` in this repo (not a Project doc). Append the story
    with its date and platforms, commit to `main` with the session attribution lines (`git fetch origin main && git rebase origin/main` first).
 3. **Delivery**: scheduled runs have no live reader; skip SendUserFile and post the Russian summary with SendUserMessage only.
