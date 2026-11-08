@@ -20,10 +20,9 @@
 2. **Stories list**: the source of truth is `pipeline/STORIES_DONE.md` in this repo (not a Project doc). Append the story
    with its date and platforms, commit to `main` with the session attribution lines (`git fetch origin main && git rebase origin/main` first).
 3. **Delivery**: scheduled runs have no live reader; skip SendUserFile and post the Russian summary with SendUserMessage only.
-4. **Platforms**: each reel goes to TikTok AND YouTube Shorts in ONE Metricool post (blogId 7718820): providers
-   `[{"network":"tiktok"},{"network":"youtube"}]`, `tiktokData {"privacyOption":"PUBLIC_TO_EVERYONE",...}`,
-   `youtubeData {"title":"<≤90 chars> #shorts","type":"short","privacy":"public","madeForKids":false,"category":"EDUCATION"}`.
-   Owner's decision (2026-11-02): NO AI labels anywhere — never set isAigc or isAiGeneratedContent, and do not write "AI"/"synthetic voice" in captions or descriptions.
+4. **Platforms** (since 2026-11-09): story reels go to TikTok ONLY (blogId 7718820, providers `[{"network":"tiktok"}]`,
+   `tiktokData {"title", "privacyOption":"PUBLIC_TO_EVERYONE"}`). YouTube Shorts now come from the daily sleep reading
+   (`pipeline-sleep/RUNBOOK.md`). No AI labels and no "AI" wording anywhere (owner's decision).
 5. **Voice check (mandatory)**: before scheduling, run speech recognition (`pip install pocketsphinx`, 16 kHz mono,
    `pocketsphinx.Decoder(samprate=16000)`) on the first 20 s of the final video; at least 3 content words of the script must
    appear. Also confirm the voice WAVs are at the sample rate the mixer expects. If the check fails, fix it; never post a silent or garbled reel.

@@ -1,0 +1,274 @@
+{
+ "img_dir": "/home/claude/sleep/img/crop",
+ "lead": 6.0,
+ "crf": 28,
+ "abr": "96k",
+ "dim_last": 600,
+ "text_credit": "The Book of Enoch, tr. R. H. Charles (1917)",
+ "credits": {
+  "01": "David Roberts, The Holy Land (1842–49)",
+  "02": "David Roberts, The Holy Land (1842–49)",
+  "03": "David Roberts, The Holy Land (1842–49)",
+  "04": "David Roberts, The Holy Land (1842–49)",
+  "13": "David Roberts, The Holy Land (1842–49)",
+  "17": "David Roberts, The Holy Land (1842–49)",
+  "18": "David Roberts, The Holy Land (1842–49)",
+  "19": "David Roberts, The Holy Land (1842–49)",
+  "20": "David Roberts, The Holy Land (1842–49)",
+  "23": "David Roberts, The Holy Land (1842–49)",
+  "24": "David Roberts, The Holy Land (1842–49)",
+  "05": "Gustave Doré, Paradise Lost (1866)",
+  "06": "Gustave Doré, Paradise Lost (1866)",
+  "07": "Gustave Doré, Paradise Lost (1866)",
+  "08": "Gustave Doré, Paradise Lost (1866)",
+  "09": "Gustave Doré, Paradise Lost (1866)",
+  "10": "Gustave Doré, Paradise Lost (1866)",
+  "11": "Gustave Doré, Paradise Lost (1866)",
+  "12": "Gustave Doré, Paradise Lost (1866)",
+  "16": "Gustave Doré, Paradise Lost (1866)",
+  "22": "Gustave Doré, Paradise Lost (1866)",
+  "25": "Gustave Doré, Paradise Lost (1866)",
+  "14": "Gustave Doré, Paradiso (1868)",
+  "15": "Gustave Doré, Paradiso (1868)",
+  "27": "Gustave Doré, Paradiso (1868)"
+ },
+ "schedule": [
+  {
+   "block": "intro",
+   "images": [
+    "01"
+   ],
+   "caption": "The Book of Enoch  ·  The Watchers"
+  },
+  {
+   "block": "ch01",
+   "images": [],
+   "caption": "The Book of Enoch  ·  Chapter 1"
+  },
+  {
+   "block": "ch02",
+   "images": [
+    "02"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 2"
+  },
+  {
+   "block": "ch03",
+   "images": [],
+   "caption": "The Book of Enoch  ·  Chapter 3"
+  },
+  {
+   "block": "ch04",
+   "images": [],
+   "caption": "The Book of Enoch  ·  Chapter 4"
+  },
+  {
+   "block": "ch05",
+   "images": [
+    "03"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 5"
+  },
+  {
+   "block": "ch06",
+   "images": [
+    "04"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 6"
+  },
+  {
+   "block": "ch07",
+   "images": [
+    "05"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 7"
+  },
+  {
+   "block": "ch08",
+   "images": [],
+   "caption": "The Book of Enoch  ·  Chapter 8"
+  },
+  {
+   "block": "ch09",
+   "images": [
+    "08"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 9"
+  },
+  {
+   "block": "ch10",
+   "images": [
+    "09",
+    "10",
+    "11"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 10"
+  },
+  {
+   "block": "ch11",
+   "images": [
+    "12"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 11"
+  },
+  {
+   "block": "ch12",
+   "images": [],
+   "caption": "The Book of Enoch  ·  Chapter 12"
+  },
+  {
+   "block": "ch13",
+   "images": [
+    "13"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 13"
+  },
+  {
+   "block": "ch14",
+   "images": [
+    "14",
+    "15"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 14"
+  },
+  {
+   "block": "ch15",
+   "images": [
+    "16"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 15"
+  },
+  {
+   "block": "ch16",
+   "images": [
+    "06"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 16"
+  },
+  {
+   "block": "ch17",
+   "images": [],
+   "caption": "The Book of Enoch  ·  Chapter 17"
+  },
+  {
+   "block": "ch18",
+   "images": [
+    "17"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 18"
+  },
+  {
+   "block": "ch19",
+   "images": [
+    "07"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 19"
+  },
+  {
+   "block": "ch20",
+   "images": [],
+   "caption": "The Book of Enoch  ·  Chapter 20"
+  },
+  {
+   "block": "ch21",
+   "images": [
+    "18"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 21"
+  },
+  {
+   "block": "ch22",
+   "images": [
+    "20"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 22"
+  },
+  {
+   "block": "ch23",
+   "images": [
+    "19"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 23"
+  },
+  {
+   "block": "ch24",
+   "images": [],
+   "caption": "The Book of Enoch  ·  Chapter 24"
+  },
+  {
+   "block": "ch25",
+   "images": [
+    "22"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 25"
+  },
+  {
+   "block": "ch26",
+   "images": [
+    "23"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 26"
+  },
+  {
+   "block": "ch27",
+   "images": [],
+   "caption": "The Book of Enoch  ·  Chapter 27"
+  },
+  {
+   "block": "ch28",
+   "images": [
+    "25"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 28"
+  },
+  {
+   "block": "ch29",
+   "images": [],
+   "caption": "The Book of Enoch  ·  Chapter 29"
+  },
+  {
+   "block": "ch30",
+   "images": [],
+   "caption": "The Book of Enoch  ·  Chapter 30"
+  },
+  {
+   "block": "ch31",
+   "images": [],
+   "caption": "The Book of Enoch  ·  Chapter 31"
+  },
+  {
+   "block": "ch32",
+   "images": [
+    "24"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 32"
+  },
+  {
+   "block": "ch33",
+   "images": [],
+   "caption": "The Book of Enoch  ·  Chapter 33"
+  },
+  {
+   "block": "ch34",
+   "images": [
+    "27"
+   ],
+   "caption": "The Book of Enoch  ·  Chapter 34"
+  },
+  {
+   "block": "ch35",
+   "images": [],
+   "caption": "The Book of Enoch  ·  Chapter 35"
+  },
+  {
+   "block": "ch36",
+   "images": [],
+   "caption": "The Book of Enoch  ·  Chapter 36"
+  },
+  {
+   "block": "outro",
+   "images": [],
+   "caption": "The Book of Enoch  ·  The Watchers"
+  }
+ ]
+}

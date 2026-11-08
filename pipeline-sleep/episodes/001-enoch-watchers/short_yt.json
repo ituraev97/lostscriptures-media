@@ -1,0 +1,59 @@
+{
+ "build": "build",
+ "img_dir": "/home/claude/sleep/img/crop",
+ "credit": "Text: Book of Enoch 6, tr. R. H. Charles (1917) \u00b7 Art: Dor\u00e9, Roberts",
+ "hook": [
+  "FALL ASLEEP TO",
+  "THE BOOK OF ENOCH"
+ ],
+ "sub": "the Watchers, read aloud",
+ "pieces": [
+  {
+   "block": "ch06",
+   "v": [
+    "2",
+    "6"
+   ]
+  },
+  {
+   "wav": "build/cta_yt.wav",
+   "text": "The full reading is on our channel. Sleep well.",
+   "gap": 0.3
+  }
+ ],
+ "shots": [
+  {
+   "img": "05",
+   "until": 15,
+   "from": [
+    0.5,
+    0.35,
+    1.0
+   ],
+   "to": [
+    0.5,
+    0.25,
+    1.15
+   ]
+  },
+  {
+   "img": "04",
+   "until": 60,
+   "from": [
+    0.55,
+    0.5,
+    1.0
+   ],
+   "to": [
+    0.6,
+    0.45,
+    1.12
+   ]
+  }
+ ],
+ "cta": [
+  "FULL READING",
+  "on our channel  \u00b7  sleep well"
+ ],
+ "cta_secs": 6
+}
