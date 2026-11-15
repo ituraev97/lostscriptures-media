@@ -103,7 +103,7 @@ def book_card(fr, a, t):
     text_c(d, (W / 2, y1 - 52), Q['card_cta'], cin(34), GOLD, a, False)
 p = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-', '-i', f'{TMP}/mix.wav',
                       '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '19', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k',
-                      '-af', 'loudnorm=I=-14:TP=-1.5', '-shortest', '-movflags', '+faststart', OUT], stdin=subprocess.PIPE)
+                      '-af', 'loudnorm=I=-14:TP=-1.5', '-ar', '48000', '-shortest', '-movflags', '+faststart', OUT], stdin=subprocess.PIPE)
 nf = int(END * FPS); ans = Q['answer']
 for f in range(nf):
     t = f / FPS
