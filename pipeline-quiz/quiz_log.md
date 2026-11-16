@@ -3,3 +3,4 @@
 - 2026-11-15 | Which woman killed an enemy general with a tent peg? | B Jael (Judg 4:21) | KJV Holy Bible, Giant Print Thinline (Pink) | TikTok 2026-11-15 10:00 ET, Doré 'Sisera Slain by Jael'
 - 2026-11-15 | Which disciple did Jesus call "Satan" to his face? | A Peter (Matt 16:23) | NLT Life Application Study Bible, Third Edition, Large Print (Red Letter) | TikTok 2026-11-15 17:00 ET, Tissot 'Get Thee Behind Me, Satan'
 - 2026-11-16 | Which queen was thrown from a window and eaten by dogs? | D Jezebel (2 Kings 9:33-36) | The Dead Sea Scrolls Bible (HarperOne) | TikTok 2026-11-16 10:00 ET, Doré 'The Death of Jezebel'
+- 2026-11-16 | How many days was Lazarus dead before Jesus raised him? | C Four days (John 11:17, 39) | KJV Holy Bible, Large Print, Handy Size (Lion of Judah, Red Letter) | TikTok 2026-11-16 17:00 ET, Doré 'The Resurrection of Lazarus'
