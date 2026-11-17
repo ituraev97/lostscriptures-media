@@ -6,3 +6,4 @@
 - 2026-11-16 | How many days was Lazarus dead before Jesus raised him? | C Four days (John 11:17, 39) | KJV Holy Bible, Large Print, Handy Size (Lion of Judah, Red Letter) | TikTok 2026-11-16 17:00 ET, Doré 'The Resurrection of Lazarus'
 - 2026-11-17 | Who did Jesus call the greatest man ever born of a woman? | B John the Baptist (Matt 11:11; Luke 7:28) | The Bible Recap (Bethany House) | TikTok 2026-11-17 10:00 ET, Tissot 'The Baptism of Jesus'
 - 2026-11-17 | Which king of Israel had seven hundred wives? | D Solomon (1 Kings 11:3) | KJV Holy Bible, Gift Edition (Blossom Pink Floral) | TikTok 2026-11-17 17:00 ET, Doré 'Solomon'
+- 2026-11-17 | Who was the first person to see Jesus alive after he rose? | A Mary Magdalene (Mark 16:9; John 20:14-16) | The Case for Christ (Lee Strobel) | TikTok 2026-11-18 10:00 ET, Doré 'The Angel at the Sepulchre'
