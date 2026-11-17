@@ -5,3 +5,4 @@
 - 2026-11-16 | Which queen was thrown from a window and eaten by dogs? | D Jezebel (2 Kings 9:33-36) | The Dead Sea Scrolls Bible (HarperOne) | TikTok 2026-11-16 10:00 ET, Doré 'The Death of Jezebel'
 - 2026-11-16 | How many days was Lazarus dead before Jesus raised him? | C Four days (John 11:17, 39) | KJV Holy Bible, Large Print, Handy Size (Lion of Judah, Red Letter) | TikTok 2026-11-16 17:00 ET, Doré 'The Resurrection of Lazarus'
 - 2026-11-17 | Who did Jesus call the greatest man ever born of a woman? | B John the Baptist (Matt 11:11; Luke 7:28) | The Bible Recap (Bethany House) | TikTok 2026-11-17 10:00 ET, Tissot 'The Baptism of Jesus'
+- 2026-11-17 | Which king of Israel had seven hundred wives? | D Solomon (1 Kings 11:3) | KJV Holy Bible, Gift Edition (Blossom Pink Floral) | TikTok 2026-11-17 17:00 ET, Doré 'Solomon'
