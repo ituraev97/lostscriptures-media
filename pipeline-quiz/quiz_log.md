@@ -8,3 +8,4 @@
 - 2026-11-17 | Which king of Israel had seven hundred wives? | D Solomon (1 Kings 11:3) | KJV Holy Bible, Gift Edition (Blossom Pink Floral) | TikTok 2026-11-17 17:00 ET, Doré 'Solomon'
 - 2026-11-17 | Who was the first person to see Jesus alive after he rose? | A Mary Magdalene (Mark 16:9; John 20:14-16) | The Case for Christ (Lee Strobel) | TikTok 2026-11-18 10:00 ET, Doré 'The Angel at the Sepulchre'
 - 2026-11-18 | Which king of Judah began to reign at just eight years old? | C Josiah (2 Kings 22:1; 2 Chron 34:1) | Old Testament Characters (Peter Scazzero, IVP) | TikTok 2026-11-18 17:00 ET, Schnorr 'Josiah hears the Book of the Law' (Bibel in Bildern no. 123)
+- 2026-11-18 | Who walked on water besides Jesus? | B Peter (Matt 14:29) | No More Boring Bible Study (Zondervan) | TikTok 2026-11-19 10:00 ET, Tissot 'Saint Peter Walks on the Sea'
