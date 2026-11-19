@@ -10,3 +10,4 @@
 - 2026-11-18 | Which king of Judah began to reign at just eight years old? | C Josiah (2 Kings 22:1; 2 Chron 34:1) | Old Testament Characters (Peter Scazzero, IVP) | TikTok 2026-11-18 17:00 ET, Schnorr 'Josiah hears the Book of the Law' (Bibel in Bildern no. 123)
 - 2026-11-18 | Who walked on water besides Jesus? | B Peter (Matt 14:29) | No More Boring Bible Study (Zondervan) | TikTok 2026-11-19 10:00 ET, Tissot 'Saint Peter Walks on the Sea'
 - 2026-11-19 | Who did Jesus call "that fox"? | D Herod (Luke 13:32) | Preacher's Outline & Sermon Bible, KJV: Luke (Leadership Ministries Worldwide) | TikTok 2026-11-19 17:00 ET, Tissot 'Jesus before Herod'
+- 2026-11-19 | Who actually cut off Samson's hair? | C A man Delilah called (Judg 16:19) | MacArthur Study Bible, NASB, Large Print (Thomas Nelson) | TikTok 2026-11-20 10:00 ET, Doré 'Samson and Delilah'
