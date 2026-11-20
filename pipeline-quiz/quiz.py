@@ -64,7 +64,7 @@ def background(z):
     zz = round(z, 3)
     if zz not in bgs:
         s = max(W / bg.width, H / bg.height) * zz; iw, ih = bg.width * s, bg.height * s
-        x0, y0 = (iw - W) / 2 / s, (ih - H) / 2 / s
+        x0, y0 = max(0, (iw - W) / 2 / s), max(0, (ih - H) / 2 / s)
         im = bg.resize((W, H), Image.LANCZOS, box=(x0, y0, x0 + W / s, y0 + H / s))
         bgs.clear(); bgs[zz] = ImageEnhance.Brightness(im).enhance(.5)
     return bgs[zz]
