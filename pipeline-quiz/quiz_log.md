@@ -13,3 +13,4 @@
 - 2026-11-19 | Who actually cut off Samson's hair? | C A man Delilah called (Judg 16:19) | MacArthur Study Bible, NASB, Large Print (Thomas Nelson) | TikTok 2026-11-20 10:00 ET, Doré 'Samson and Delilah'
 - 2026-11-20 | Jesus said one of his twelve disciples was a devil. Which one? | B Judas Iscariot (John 6:70-71) | The Gospel of John: Beholding the Glory (Hardcover, Book Plume) | TikTok 2026-11-20 17:00 ET, Tissot 'The Communion of the Apostles'
 - 2026-11-20 | What did Jesus make with his own hands before he drove the sellers out of the temple? | A A whip of (small) cords (John 2:15) | NIV, Story of Jesus (Paperback) | TikTok 2026-11-21 10:00 ET, Tissot 'Christ driving out them that sold in the Temple'
+- 2026-11-21 | Jesus said "Woman, what have I to do with thee?" Who was he talking to? | D His own mother (John 2:4) | The Gospel of John: An Orthodox Christian Bible Study Book (Silverstone Books) | TikTok 2026-11-21 17:00 ET, Tissot 'The Marriage in Cana'
