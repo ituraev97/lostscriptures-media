@@ -1,0 +1,1 @@
+Full working build of the 2026-11-23 reel (Ten Lepers): Story.tsx (photo shots, titles, Temple-inscription tablet, HUD, captions, cover), Root.tsx, audio.py (score+SFX: python3 audio.py music.wav sfx.wav DUR), mkcaps.py, segs.json, prev.sh (preview contact sheet). Remove the Heb loadFont line from Wall.tsx (Logo import) or add the font.
