@@ -18,3 +18,4 @@
 - 2026-11-22 | Who did Jesus say had greater faith than anyone in Israel? | B A Roman centurion (Matt 8:10; Luke 7:9) | Gospel of Matthew: The Torah for the Church (Ancient Faith Publishing) | TikTok 2026-11-22 17:00 ET, Tissot 'Lord, I am not worthy'
 - 2026-11-22 | Which woman seized the throne and ruled Judah as queen for six years? | A Athaliah (2 Kings 11:1-3) | A Woman's Place Is in the Story (Sandra L. Glahn) | TikTok 2026-11-23 10:00 ET, Tissot 'Athaliah and Joash'
 - 2026-11-23 | Jesus was hungry, found no fruit, and cursed a tree. Which tree? | D A fig tree (Mark 11:13-14, 20-21; Matt 21:19) | Gospel of Mark: The Suffering Servant (Ancient Faith Publishing) | TikTok 2026-11-23 17:00 ET, Tissot 'The Accursed Fig-tree'
+- 2026-11-23 | Jesus healed ten lepers. How many came back to thank him? | C Only one, a Samaritan (Luke 17:15-17) | Luke: The Savior of the World (John MacArthur) | TikTok 2026-11-24 10:00 ET, Tissot 'The Healing of the Ten Lepers'
