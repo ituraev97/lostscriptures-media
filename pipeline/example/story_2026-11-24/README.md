@@ -1,0 +1,1 @@
+Full working build of the 2026-11-24 reel (Jesus or Barabbas): Story.tsx (incl. Greek manuscript parchment + Aramaic overlay), audio.py, mkcaps.py, align.py (custom words), segs.json. Same Root.tsx/prev.sh as story_2026-11-23.
