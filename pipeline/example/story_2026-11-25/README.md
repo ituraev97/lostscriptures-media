@@ -1,0 +1,1 @@
+Full working build of the 2026-11-25 reel (Widow of Nain): Story.tsx (Greek LXX parchment pair, Nain/Shunem mini map), audio.py (funeral flute dirge), mkcaps.py, align.py, segs.json. Render in 800-frame chunks with --offthreadvideo-cache-size-in-bytes=300000000 (one full render got OOM-killed at 2 GB).
