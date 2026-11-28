@@ -8,7 +8,7 @@ from script import S
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VO = os.path.join(ROOT, "build", "vo"); os.makedirs(VO, exist_ok=True)
-VOICE, SPEED, PITCH = "am_michael", 0.9, 0.96
+VOICE, SPEED, PITCH = "bm_lewis", 0.9, 0.96
 _K = None
 
 def kok():

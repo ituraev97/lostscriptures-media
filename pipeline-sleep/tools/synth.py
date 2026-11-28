@@ -1,9 +1,9 @@
 """Chapter-by-chapter Kokoro synthesis with resume. Writes build/vo/chNN.wav (48 kHz mono) + build/timeline.json.
-Usage: python3 synth.py text.json build [--voice am_michael --speed 0.85]"""
+Usage: python3 synth.py text.json build [--voice bm_lewis --speed 0.85]"""
 import json, os, re, sys, unicodedata, random, argparse
 import numpy as np, soundfile as sf
 from scipy.signal import resample_poly
-ap = argparse.ArgumentParser(); ap.add_argument('src'); ap.add_argument('out'); ap.add_argument('--voice', default='am_michael'); ap.add_argument('--speed', type=float, default=.85)
+ap = argparse.ArgumentParser(); ap.add_argument('src'); ap.add_argument('out'); ap.add_argument('--voice', default='bm_lewis'); ap.add_argument('--speed', type=float, default=.85)
 a = ap.parse_args()
 from kokoro_onnx import Kokoro
 k = Kokoro('/home/claude/tts/kokoro.onnx', '/home/claude/tts/voices.bin')

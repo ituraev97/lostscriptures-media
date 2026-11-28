@@ -18,7 +18,7 @@ TMP = os.path.splitext(OUT)[0] + '_tmp'; os.makedirs(TMP, exist_ok=True)
 from kokoro_onnx import Kokoro
 K = Kokoro(os.environ.get('KOKORO', '/home/claude/tts/kokoro.onnx'), os.environ.get('VOICES', '/home/claude/tts/voices.bin'))
 def say(text, speed=1.0):
-    y, sr = K.create(re.sub(r'\bLORD\b', 'Lord', text), voice='am_michael', speed=speed, lang='en-us'); y = np.asarray(y, np.float32)
+    y, sr = K.create(re.sub(r'\bLORD\b', 'Lord', text), voice='bm_lewis', speed=speed, lang='en-us'); y = np.asarray(y, np.float32)
     nz = np.where(np.abs(y) > 2e-3)[0]; y = y[max(0, nz[0] - 240): nz[-1] + 1200]
     return resample_poly(y, 2, 1).astype(np.float32)
 L = 'ABCD'

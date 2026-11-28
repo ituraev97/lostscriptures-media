@@ -1,8 +1,14 @@
 # The Lost Scriptures — TikTok Bible quiz (shop format, owner's decision 2026-11-14)
 
+> - **VOICE RULES (owner 2026-11-28): work HARD on intonation, pace and pronunciation; this channel has its OWN voice — Kokoro bm_lewis (was am_michael = Book Plume's voice; changed 2026-11-28). Never use another channel's voice.**
+>   Intonation: give every line a tone/energy (≈25% energetic on reveals, numbers, verdicts; ≈15% calm for context; rest normal); short sentences of varied length, the key word at the end, commas where a speaker breathes; never one flat tone for a whole video. After voicing measure the take: pitch variation ≥ 4 semitones, loudness range ≥ 6 LU — re-voice a flat take.
+>   Pace: long narration 150–165 wpm (sleep content excepted: keep its slow pace), Shorts 160–180 wpm; never speed long narration up to fit a duration — cut words; no silence > 0.6 s except one deliberate beat (sleep pipeline: its verse pauses stay).
+>   Pronunciation: numbers, dates, money, units written out in words in the TTS text; every unclear name/place/foreign word gets a phonetic respelling for the voice only (real spelling in captions/titles); keep them in `voice_lexicon.md` and reuse them; acronyms as letters with hyphens (F-B-I) unless said as a word. Speech-recognition check: any misread name → re-voice before rendering.
+
+
 Short quiz (18–30 s) that ends on a book from our Shopify store (the same catalog as the TikTok Shop of @lostscripturesbooks).
 TikTok gets 2 quizzes + 2 story reels a day: quizzes at 10:00 and 17:00 ET, stories at 13:00 and 20:00 ET.
-Reference: `example/q1.json` (Methuselah). Renderer: `quiz.py` (PIL frames + Kokoro am_michael + synthesized SFX/bed, −14 LUFS).
+Reference: `example/q1.json` (Methuselah). Renderer: `quiz.py` (PIL frames + Kokoro bm_lewis + synthesized SFX/bed, −14 LUFS).
 
 ## 1. Question
 - A real Bible fact people half-know, with a twist: "Who…/How many…/Which…/What did Jesus say when…". Mix easy-but-tricky and surprising.

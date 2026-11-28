@@ -3,7 +3,7 @@
 Everything needed to make English Bible-story TikTok reels in the house style.
 
 - `PLAYBOOK.md` — the full production guide: format rules, TikTok safe zones, research step, exact commands
-  (Kokoro TTS voice am_michael → atempo → pocketsphinx alignment → word captions → synthesized score/SFX →
+  (Kokoro TTS voice bm_lewis → atempo → pocketsphinx alignment → word captions → synthesized score/SFX →
   -14 LUFS mix → Remotion SVG scenes → render → cover), Metricool + hosting notes.
 - `STORIES_DONE.md` — stories already made; never repeat them.
 - `scripts/` — tts_segs.py (Kokoro), align5.py (forced alignment), mkcaps5.py (captions), wall_audio.py (music + SFX),

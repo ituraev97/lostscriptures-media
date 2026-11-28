@@ -8,7 +8,7 @@ the Projects tool (`project_read`) and write them to disk before starting.
 - Bible-story reels (English) for the TikTok account @lostscripturesbooks. NO product, NO book CTA, NO shop link. Pure gripping story.
 - Ending line is always: "Follow for more stories from the Bible that most people never hear."
 - Length 75–110 s. Hook in the first 2 s (place + year, or a shocking line). Cliffhanger rhythm, short sentences.
-- Voice: **Kokoro TTS, voice `am_michael`** (American male), lang en-us. Never ElevenLabs.
+- Voice: **Kokoro TTS, voice `bm_lewis`** (British male; was am_michael = Book Plume, changed 2026-11-28), lang en-us. Never ElevenLabs.
 - Must be "залипательно": something new on screen every 2–4 s, kinetic word-by-word captions, sound effects on
   every beat, synthesized score, screen shakes on hits, one or two big structural moments only.
 - Crisp, clean, detailed vector look (gradients, highlights, bevels). No film grain, no blur mush. One hero object per frame.
@@ -47,7 +47,7 @@ git clone --depth 1 https://github.com/kapishdima/soundcn   # Kenney CC0 sfx in 
 1. Script → `segs.json` = list of `[text, pause_seconds, speed]` (speed ~0.95–1.05; pauses 0.15–0.9 for drama).
    Respell hard names phonetically for TTS (e.g. Belshazzar→"Belshazzer", MENE→"Meenee"); check with
    `k.tokenizer.phonemize(text,'en-us')`.
-2. `python3 tts_segs.py kokoro segs.json vo.wav am_michael`
+2. `python3 tts_segs.py kokoro segs.json vo.wav bm_lewis`
 3. Speed up: `ffmpeg -i vo.wav -filter:a atempo=1.04 -ar 44100 vo_fast.wav`; 16 kHz raw for alignment:
    `ffmpeg -i vo_fast.wav -ar 16000 -ac 1 -f s16le vo.raw`
 4. Forced alignment: write lowercase spoken text to `text.txt` (numbers spelled out), `python3 align5.py vo.raw text.txt words.json`

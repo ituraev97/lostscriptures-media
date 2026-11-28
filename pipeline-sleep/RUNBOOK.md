@@ -1,5 +1,11 @@
 # The Lost Scriptures — "Fall Asleep to…" daily reading (main YouTube format since 2026-11-09)
 
+> - **VOICE RULES (owner 2026-11-28): work HARD on intonation, pace and pronunciation; this channel has its OWN voice — Kokoro bm_lewis (was am_michael = Book Plume's voice; changed 2026-11-28). Never use another channel's voice.**
+>   Intonation: give every line a tone/energy (≈25% energetic on reveals, numbers, verdicts; ≈15% calm for context; rest normal); short sentences of varied length, the key word at the end, commas where a speaker breathes; never one flat tone for a whole video. After voicing measure the take: pitch variation ≥ 4 semitones, loudness range ≥ 6 LU — re-voice a flat take.
+>   Pace: long narration 150–165 wpm (sleep content excepted: keep its slow pace), Shorts 160–180 wpm; never speed long narration up to fit a duration — cut words; no silence > 0.6 s except one deliberate beat (sleep pipeline: its verse pauses stay).
+>   Pronunciation: numbers, dates, money, units written out in words in the TTS text; every unclear name/place/foreign word gets a phonetic respelling for the voice only (real spelling in captions/titles); keep them in `voice_lexicon.md` and reuse them; acronyms as letters with hyphens (F-B-I) unless said as a word. Speech-recognition check: any misread name → re-voice before rendering.
+
+
 One calm long reading per day (45–95 min; hard limit: final file ≤ 94 MB), plus 1 YouTube Short (30–45 s) and 1 TikTok version (61–100 s)
 cut from it. Reference episode: `episodes/001-enoch-watchers/` (published 2026-11-08 21:00 ET).
 
@@ -9,7 +15,7 @@ small channels and build watch hours fast (Projects doc `claude/research/lost-sc
 ## Owner's rules
 - Text: ONLY public domain, read exactly as printed (no retelling). KJV (or World English Bible); R. H. Charles 1917 for Enoch.
   Short intro and goodbye (1–2 sentences each). No end-times prophecy talk, no "banned / they hid it", never "No Ads".
-- Voice: Kokoro `am_michael`, speed 0.85 (owner chose sample A). Pauses 0.8–1.2 s between verses, 2 s after a chapter heading,
+- Voice: Kokoro `bm_lewis`, speed 0.85 (owner chose sample A). Pauses 0.8–1.2 s between verses, 2 s after a chapter heading,
   3.5 s between chapters.
 - NO AI labels anywhere (owner's decision 2026-11-02, confirmed 2026-11-08): never set isAiGeneratedContent / isAigc, never write
   "AI" or "synthetic voice" in titles or descriptions. Not made for kids. Category EDUCATION.
@@ -43,7 +49,7 @@ cp ../lostscriptures-media/pipeline/visuals/pd.py tools/
 - Length: 45–95 min of reading ≈ 6,000–12,500 words. Split longer books into parts.
 
 ## 2. Voice (long, resumable — run in the background, re-run if interrupted)
-`python3 tools/synth.py ep.json build --voice am_michael --speed 0.85` → `build/vo/<block>.wav` (48 kHz) + verse timings.
+`python3 tools/synth.py ep.json build --voice bm_lewis --speed 0.85` → `build/vo/<block>.wav` (48 kHz) + verse timings.
 Then `python3 tools/assemble.py ep.json build` → `build/mix.wav` (≈ −18 LUFS) and `build/timeline.json`.
 MANDATORY voice check: all `build/vo/*.wav` are 48000 Hz, and pocketsphinx on 40 s of `build/mix.wav` (from 6 s) recovers the intro
 and first verse words (≥ 6 content words). Never publish a reading without clear narration.

@@ -1,5 +1,11 @@
 # The Lost Scriptures — YouTube long-form documentary runbook
 
+> - **VOICE RULES (owner 2026-11-28): work HARD on intonation, pace and pronunciation; this channel has its OWN voice — Kokoro bm_lewis (was am_michael = Book Plume's voice; changed 2026-11-28). Never use another channel's voice.**
+>   Intonation: give every line a tone/energy (≈25% energetic on reveals, numbers, verdicts; ≈15% calm for context; rest normal); short sentences of varied length, the key word at the end, commas where a speaker breathes; never one flat tone for a whole video. After voicing measure the take: pitch variation ≥ 4 semitones, loudness range ≥ 6 LU — re-voice a flat take.
+>   Pace: long narration 150–165 wpm (sleep content excepted: keep its slow pace), Shorts 160–180 wpm; never speed long narration up to fit a duration — cut words; no silence > 0.6 s except one deliberate beat (sleep pipeline: its verse pauses stay).
+>   Pronunciation: numbers, dates, money, units written out in words in the TTS text; every unclear name/place/foreign word gets a phonetic respelling for the voice only (real spelling in captions/titles); keep them in `voice_lexicon.md` and reuse them; acronyms as letters with hyphens (F-B-I) unless said as a word. Speech-recognition check: any misread name → re-voice before rendering.
+
+
 One ~10-minute documentary (1920×1080, 30 fps, −14 LUFS) about a lost book, an apocryphal text or the history of a biblical text, for a US audience. Reference episode: `episodes/001-book-of-enoch/` (script, assets, metadata, thumbnails). The visual style and the brand are fixed; only the story changes.
 
 ## 0. Setup (fresh container, ~3 min)
@@ -43,7 +49,7 @@ All public domain, fetched from archive.org (Wikimedia answers 429 from these se
 ## 4. Voice, timeline, sound, picture
 
 ```
-python3 tools/voice.py            # Kokoro am_michael ×0.96 pitch, speed 0.9 -> build/vo, film/timeline.json, build/captions_en.srt
+python3 tools/voice.py            # Kokoro bm_lewis ×0.96 pitch, speed 0.9 -> build/vo, film/timeline.json, build/captions_en.srt
 python3 -c "import json;d=json.load(open('film/timeline.json'));json.dump({'title':'<Title>','duration':d['duration'],'formats':['16x9'],'poster':30},open('film/film.json','w'))"
 python3 tools/mix.py              # synthesized score + booms + ducked narration, -14 LUFS -> build/mix.wav
 node render.mjs --film film --at 3,40,90,150,240,330,420,500 --noblur --workers 2   # LOOK at the stills, fix, repeat
